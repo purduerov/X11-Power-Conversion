@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.0">
+<eagle version="9.1.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5099,6 +5099,84 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-PowerSymbols" urn="urn:adsk.eagle:library:530">
+<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
+This library contains power, ground, and voltage-supply symbols.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="DGND" urn="urn:adsk.eagle:symbol:39415/1" library_version="1">
+<description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" urn="urn:adsk.eagle:component:39439/1" prefix="GND" library_version="1">
+<description>&lt;h3&gt;Ground Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Generic signal ground supply symbol.&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="microbuilder">
+<description>&lt;h2&gt;&lt;b&gt;microBuilder.eu&lt;/b&gt; Eagle Footprint Library&lt;/h2&gt;
+
+&lt;p&gt;Footprints for common components used in our projects and products.  This is the same library that we use internally, and it is regularly updated.  The newest version can always be found at &lt;b&gt;www.microBuilder.eu&lt;/b&gt;.  If you find this library useful, please feel free to purchase something from our online store. Please also note that all holes are optimised for metric drill bits!&lt;/p&gt;
+
+&lt;h3&gt;Obligatory Warning&lt;/h3&gt;
+&lt;p&gt;While it probably goes without saying, there are no guarantees that the footprints or schematic symbols in this library are flawless, and we make no promises of fitness for production, prototyping or any other purpose. These libraries are provided for information puposes only, and are used at your own discretion.  While we make every effort to produce accurate footprints, and many of the items found in this library have be proven in production, we can't make any promises of suitability for a specific purpose. If you do find any errors, though, please feel free to contact us at www.microbuilder.eu to let us know about it so that we can update the library accordingly!&lt;/p&gt;
+
+&lt;h3&gt;License&lt;/h3&gt;
+&lt;p&gt;This work is placed in the public domain, and may be freely used for commercial and non-commercial work with the following conditions:&lt;/p&gt;
+&lt;p&gt;THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;/p&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="GND">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<text x="-1.524" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND">
+<description>&lt;b&gt;GND&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5131,7 +5209,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="C12" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:32380/1" value=".1uF"/>
 <part name="C13" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:32380/1" value=".01uF"/>
 <part name="GND1" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="GND2" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="C15" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
 <part name="C16" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
@@ -5154,10 +5231,11 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="C26" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:32380/1" value=".1uF"/>
 <part name="C27" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:32380/1" value=".01uF"/>
 <part name="GND3" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
-<part name="GND4" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="U$4" library="TPS758" deviceset="TO-263" device=""/>
 <part name="C28" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47UF-POLAR" device="-EIA3528-10V-10%" package3d_urn="urn:adsk.eagle:package:37411/1" value="47uF"/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" 10 ohms"/>
+<part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5246,7 +5324,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="VALUE" x="171.45" y="90.17" size="1.27" layer="96" ratio="10"/>
 </instance>
 <instance part="GND1" gate="G$1" x="157.48" y="109.22"/>
-<instance part="GND2" gate="G$1" x="182.88" y="109.22"/>
 <instance part="FRAME2" gate="G$1" x="261.62" y="0">
 <attribute name="DRAWING_NAME" x="478.79" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="478.79" y="10.16" size="2.286" layer="94"/>
@@ -5327,7 +5404,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="VALUE" x="389.89" y="90.17" size="1.27" layer="96" ratio="10"/>
 </instance>
 <instance part="GND3" gate="G$1" x="375.92" y="109.22"/>
-<instance part="GND4" gate="G$1" x="401.32" y="109.22"/>
 <instance part="U$4" gate="G$1" x="345.44" y="71.12">
 <attribute name="NAME" x="335.28" y="58.42" size="1.27" layer="95"/>
 </instance>
@@ -5339,6 +5415,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <attribute name="NAME" x="361.696" y="48.26" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="364.744" y="48.26" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
+<instance part="GND5" gate="1" x="182.88" y="106.68"/>
+<instance part="U$2" gate="G$1" x="401.32" y="106.68"/>
 </instances>
 <busses>
 </busses>
@@ -5523,42 +5601,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <junction x="157.48" y="114.3"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
-<pinref part="U$1" gate="G$1" pin="P$3"/>
-<wire x1="185.42" y1="127" x2="187.96" y2="127" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="127" x2="190.5" y2="127" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="127" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
-<junction x="187.96" y="127"/>
-<pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="114.3" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="109.22" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="104.14" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="101.6" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="96.52" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="96.52" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="-"/>
-<wire x1="177.8" y1="93.98" x2="173.99" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="93.98" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
-<junction x="177.8" y="93.98"/>
-<pinref part="C13" gate="G$1" pin="-"/>
-<wire x1="177.8" y1="86.36" x2="173.99" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="-"/>
-<wire x1="177.8" y1="109.22" x2="173.99" y2="109.22" width="0.1524" layer="91"/>
-<junction x="177.8" y="109.22"/>
-<pinref part="C11" gate="G$1" pin="-"/>
-<wire x1="177.8" y1="101.6" x2="173.99" y2="101.6" width="0.1524" layer="91"/>
-<junction x="177.8" y="101.6"/>
-<wire x1="187.96" y1="114.3" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
-<junction x="187.96" y="114.3"/>
-<junction x="177.8" y="114.3"/>
-<pinref part="GND2" gate="G$1" pin="GND"/>
-<wire x1="182.88" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="109.22" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
-<junction x="182.88" y="114.3"/>
-</segment>
-<segment>
 <pinref part="C27" gate="G$1" pin="+"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND3" gate="G$1" pin="GND"/>
@@ -5600,48 +5642,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="375.92" y1="114.3" x2="370.84" y2="114.3" width="0.1524" layer="91"/>
 <junction x="375.92" y="114.3"/>
 <junction x="370.84" y="114.3"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="393.7" y1="114.3" x2="396.24" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="109.22" x2="396.24" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="101.6" x2="396.24" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="93.98" x2="396.24" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="C26" gate="G$1" pin="-"/>
-<wire x1="396.24" y1="93.98" x2="392.43" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="93.98" x2="396.24" y2="86.36" width="0.1524" layer="91"/>
-<junction x="396.24" y="93.98"/>
-<pinref part="C27" gate="G$1" pin="-"/>
-<wire x1="396.24" y1="86.36" x2="392.43" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="-"/>
-<wire x1="396.24" y1="109.22" x2="392.43" y2="109.22" width="0.1524" layer="91"/>
-<junction x="396.24" y="109.22"/>
-<pinref part="C25" gate="G$1" pin="-"/>
-<wire x1="396.24" y1="101.6" x2="392.43" y2="101.6" width="0.1524" layer="91"/>
-<junction x="396.24" y="101.6"/>
-<junction x="396.24" y="114.3"/>
-<pinref part="GND4" gate="G$1" pin="GND"/>
-<wire x1="401.32" y1="114.3" x2="396.24" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="401.32" y1="109.22" x2="401.32" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="TABGND"/>
-<wire x1="414.02" y1="127" x2="414.02" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="406.4" y1="127" x2="406.4" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="406.4" y1="114.3" x2="414.02" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="L4" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="P$3"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
-<wire x1="447.04" y1="127" x2="449.58" y2="127" width="0.1524" layer="91"/>
-<wire x1="449.58" y1="127" x2="452.12" y2="127" width="0.1524" layer="91"/>
-<junction x="449.58" y="127"/>
-<wire x1="449.58" y1="127" x2="449.58" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="449.58" y1="114.3" x2="457.2" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="114.3" x2="449.58" y2="114.3" width="0.1524" layer="91"/>
-<junction x="414.02" y="114.3"/>
-<junction x="449.58" y="114.3"/>
-<wire x1="401.32" y1="114.3" x2="406.4" y2="114.3" width="0.1524" layer="91"/>
-<junction x="401.32" y="114.3"/>
-<junction x="406.4" y="114.3"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">
@@ -5743,6 +5743,89 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="325.12" y1="76.2" x2="314.96" y2="76.2" width="0.1524" layer="91"/>
 <junction x="325.12" y="76.2"/>
 <label x="314.96" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND_5V3" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="393.7" y1="114.3" x2="396.24" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="109.22" x2="396.24" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="101.6" x2="396.24" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="93.98" x2="396.24" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="C26" gate="G$1" pin="-"/>
+<wire x1="396.24" y1="93.98" x2="392.43" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="93.98" x2="396.24" y2="86.36" width="0.1524" layer="91"/>
+<junction x="396.24" y="93.98"/>
+<pinref part="C27" gate="G$1" pin="-"/>
+<wire x1="396.24" y1="86.36" x2="392.43" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C24" gate="G$1" pin="-"/>
+<wire x1="396.24" y1="109.22" x2="392.43" y2="109.22" width="0.1524" layer="91"/>
+<junction x="396.24" y="109.22"/>
+<pinref part="C25" gate="G$1" pin="-"/>
+<wire x1="396.24" y1="101.6" x2="392.43" y2="101.6" width="0.1524" layer="91"/>
+<junction x="396.24" y="101.6"/>
+<junction x="396.24" y="114.3"/>
+<wire x1="401.32" y1="114.3" x2="396.24" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="401.32" y1="109.22" x2="401.32" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="TABGND"/>
+<wire x1="414.02" y1="127" x2="414.02" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="406.4" y1="127" x2="406.4" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="114.3" x2="414.02" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="L4" gate="G$1" pin="1"/>
+<pinref part="U$3" gate="G$1" pin="P$3"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="447.04" y1="127" x2="449.58" y2="127" width="0.1524" layer="91"/>
+<wire x1="449.58" y1="127" x2="452.12" y2="127" width="0.1524" layer="91"/>
+<junction x="449.58" y="127"/>
+<wire x1="449.58" y1="127" x2="449.58" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="449.58" y1="114.3" x2="457.2" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="114.3" x2="449.58" y2="114.3" width="0.1524" layer="91"/>
+<junction x="414.02" y="114.3"/>
+<junction x="449.58" y="114.3"/>
+<wire x1="401.32" y1="114.3" x2="406.4" y2="114.3" width="0.1524" layer="91"/>
+<junction x="401.32" y="114.3"/>
+<junction x="406.4" y="114.3"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<label x="403.86" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND_5V" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="P$1"/>
+<pinref part="U$1" gate="G$1" pin="P$3"/>
+<wire x1="185.42" y1="127" x2="187.96" y2="127" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="127" x2="190.5" y2="127" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="127" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
+<junction x="187.96" y="127"/>
+<pinref part="L2" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="114.3" x2="195.58" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="109.22" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="104.14" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="101.6" x2="177.8" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="96.52" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="96.52" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C12" gate="G$1" pin="-"/>
+<wire x1="177.8" y1="93.98" x2="173.99" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="93.98" x2="177.8" y2="86.36" width="0.1524" layer="91"/>
+<junction x="177.8" y="93.98"/>
+<pinref part="C13" gate="G$1" pin="-"/>
+<wire x1="177.8" y1="86.36" x2="173.99" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="-"/>
+<wire x1="177.8" y1="109.22" x2="173.99" y2="109.22" width="0.1524" layer="91"/>
+<junction x="177.8" y="109.22"/>
+<pinref part="C11" gate="G$1" pin="-"/>
+<wire x1="177.8" y1="101.6" x2="173.99" y2="101.6" width="0.1524" layer="91"/>
+<junction x="177.8" y="101.6"/>
+<wire x1="187.96" y1="114.3" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
+<junction x="187.96" y="114.3"/>
+<junction x="177.8" y="114.3"/>
+<wire x1="182.88" y1="114.3" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="109.22" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
+<junction x="182.88" y="114.3"/>
+<pinref part="GND5" gate="1" pin="GND"/>
 </segment>
 </net>
 </nets>
