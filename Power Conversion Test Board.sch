@@ -5236,6 +5236,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" 10 ohms"/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
+<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
+<part name="L5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L2012C" package3d_urn="urn:adsk.eagle:package:23475/1" value="15uH"/>
 </parts>
 <sheets>
 <sheet>
@@ -5417,6 +5419,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="GND5" gate="1" x="182.88" y="106.68"/>
 <instance part="U$2" gate="G$1" x="401.32" y="106.68"/>
+<instance part="R2" gate="G$1" x="203.2" y="106.68"/>
+<instance part="L5" gate="G$1" x="203.2" y="137.16" rot="R90">
+<attribute name="NAME" x="208.28" y="135.89" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="208.28" y="140.97" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5443,6 +5450,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="215.9" y="114.3"/>
 <pinref part="C9" gate="G$1" pin="-"/>
 <wire x1="241.3" y1="121.92" x2="241.3" y2="128.27" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="114.3" x2="210.82" y2="109.22" width="0.1524" layer="91"/>
+<junction x="210.82" y="114.3"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="208.28" y1="106.68" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="106.68" x2="210.82" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -5522,6 +5534,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="215.9" y1="152.4" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="152.4" x2="215.9" y2="152.4" width="0.1524" layer="91"/>
 <junction x="215.9" y="152.4"/>
+<pinref part="L5" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="142.24" x2="210.82" y2="137.16" width="0.1524" layer="91"/>
+<junction x="210.82" y="142.24"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5539,6 +5554,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="187.96" y1="142.24" x2="190.5" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="137.16" x2="187.96" y2="142.24" width="0.1524" layer="91"/>
 <junction x="187.96" y="142.24"/>
+<wire x1="195.58" y1="142.24" x2="195.58" y2="139.7" width="0.1524" layer="91"/>
+<junction x="195.58" y="142.24"/>
+<wire x1="195.58" y1="139.7" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="L5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5826,6 +5845,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="182.88" y1="109.22" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
 <junction x="182.88" y="114.3"/>
 <pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="195.58" y1="114.3" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
+<junction x="195.58" y="114.3"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="106.68" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
