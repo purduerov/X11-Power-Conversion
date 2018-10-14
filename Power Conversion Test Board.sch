@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5233,7 +5233,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="GND" device="" value="SUP"/>
 <part name="U$4" library="TPS758" deviceset="TO-263" device=""/>
 <part name="C28" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47UF-POLAR" device="-EIA3528-10V-10%" package3d_urn="urn:adsk.eagle:package:37411/1" value="47uF"/>
-<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" 10 ohms"/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" 1.2 ohms"/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
@@ -5381,7 +5381,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="469.9" y="113.03" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="469.9" y="118.11" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+3" gate="1" x="477.52" y="162.56"/>
+<instance part="P+3" gate="1" x="477.52" y="162.56">
+<attribute name="VALUE" x="474.98" y="157.48" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="P+4" gate="1" x="350.52" y="160.02">
 <attribute name="VALUE" x="347.98" y="154.94" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -5417,9 +5419,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="361.696" y="48.26" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="364.744" y="48.26" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND5" gate="1" x="182.88" y="106.68"/>
-<instance part="U$2" gate="G$1" x="401.32" y="106.68"/>
-<instance part="R2" gate="G$1" x="203.2" y="106.68"/>
+<instance part="GND5" gate="1" x="182.88" y="106.68">
+<attribute name="VALUE" x="182.88" y="106.426" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="U$2" gate="G$1" x="401.32" y="106.68">
+<attribute name="VALUE" x="399.796" y="104.14" size="1.27" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="203.2" y="106.68">
+<attribute name="NAME" x="203.2" y="108.204" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="203.2" y="105.156" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
 <instance part="L5" gate="G$1" x="203.2" y="137.16" rot="R90">
 <attribute name="NAME" x="208.28" y="135.89" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="208.28" y="140.97" size="1.778" layer="96" rot="R180"/>
