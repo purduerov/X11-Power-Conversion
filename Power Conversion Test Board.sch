@@ -5177,6 +5177,115 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="board_outlines">
+<packages>
+<package name="BKP">
+<circle x="120.319509375" y="101.725059375" radius="1.89865" width="0.025" layer="20"/>
+<circle x="14.300490625" y="101.725059375" radius="1.89865" width="0.025" layer="20"/>
+<circle x="67.31" y="9.909890625" radius="1.89865" width="0.025" layer="20"/>
+<wire x1="88.33115" y1="6.417390625" x2="133.85468125" y2="85.26645" width="0.025" layer="20"/>
+<wire x1="133.85468125" y1="85.26645" x2="133.85468125" y2="87.80645" width="0.025" layer="20" curve="59.999961"/>
+<wire x1="133.85468125" y1="87.80645" x2="115.03323125" y2="120.406159375" width="0.025" layer="20"/>
+<wire x1="115.03323125" y1="120.406159375" x2="112.83353125" y2="121.67615625" width="0.025" layer="20" curve="59.999949"/>
+<wire x1="112.83353125" y1="121.676159375" x2="21.78646875" y2="121.676159375" width="0.025" layer="20"/>
+<wire x1="21.78646875" y1="121.676159375" x2="19.586765625" y2="120.4061625" width="0.025" layer="20" curve="59.999923"/>
+<wire x1="19.58676875" y1="120.406159375" x2="0.76531875" y2="87.80645" width="0.025" layer="20"/>
+<wire x1="0.76531875" y1="87.80645" x2="0.76531875" y2="85.26645" width="0.025" layer="20" curve="59.999961"/>
+<wire x1="0.76531875" y1="85.26645" x2="46.28885" y2="6.417390625" width="0.025" layer="20"/>
+<wire x1="46.28885" y1="6.417390625" x2="48.48855" y2="5.147390625" width="0.025" layer="20" curve="59.999878"/>
+<wire x1="48.48855" y1="5.147390625" x2="86.13145" y2="5.147390625" width="0.025" layer="20"/>
+<wire x1="86.13145" y1="5.147390625" x2="88.331153125" y2="6.4173875" width="0.025" layer="20" curve="59.999923"/>
+</package>
+<package name="ESC">
+<wire x1="93.98" y1="-0.015240625" x2="93.98" y2="93.487240625" width="0.025" layer="20"/>
+<wire x1="93.98" y1="93.487240625" x2="0" y2="93.487240625" width="0.025" layer="20"/>
+<wire x1="0" y1="-0.015240625" x2="0" y2="93.487240625" width="0.025" layer="20"/>
+<wire x1="93.98" y1="-0.015240625" x2="0" y2="-0.015240625" width="0.025" layer="20"/>
+</package>
+<package name="PCB">
+<wire x1="12.663540625" y1="96.72211875" x2="15.8385375" y2="102.22138125" width="0.025" layer="20" curve="59.999995"/>
+<wire x1="12.663540625" y1="96.72211875" x2="9.58395" y2="94.94411875" width="0.025" layer="20"/>
+<wire x1="9.58395" y1="94.94411875" x2="1.54623125" y2="90.303540625" width="0.025" layer="20"/>
+<wire x1="1.54623125" y1="90.303540625" x2="52.27856875" y2="2.432559375" width="0.025" layer="20"/>
+<wire x1="52.27856875" y1="2.432559375" x2="63.39586875" y2="8.851140625" width="0.025" layer="20"/>
+<wire x1="69.74586875" y1="8.851140625" x2="63.39586875" y2="8.851140625" width="0.025" layer="20" curve="59.999989"/>
+<wire x1="69.74586875" y1="8.851140625" x2="80.86318125" y2="2.432559375" width="0.025" layer="20"/>
+<wire x1="80.86318125" y1="2.432559375" x2="131.595509375" y2="90.303540625" width="0.025" layer="20"/>
+<wire x1="131.595509375" y1="90.303540625" x2="120.478209375" y2="96.72211875" width="0.025" layer="20"/>
+<wire x1="117.303209375" y1="102.22138125" x2="120.478209375" y2="96.72211875" width="0.025" layer="20" curve="60.000005"/>
+<wire x1="117.303209375" y1="102.22138125" x2="117.303209375" y2="105.77738125" width="0.025" layer="20"/>
+<wire x1="117.303209375" y1="105.77738125" x2="117.303209375" y2="115.058540625" width="0.025" layer="20"/>
+<wire x1="117.303209375" y1="115.058540625" x2="15.838540625" y2="115.058540625" width="0.025" layer="20"/>
+<wire x1="15.838540625" y1="115.058540625" x2="15.838540625" y2="105.77738125" width="0.025" layer="20"/>
+<wire x1="15.838540625" y1="105.77738125" x2="15.838540625" y2="102.22138125" width="0.025" layer="20"/>
+<wire x1="15.838540625" y1="105.77738125" x2="117.303209375" y2="105.77738125" width="0.025" layer="21"/>
+<wire x1="72.825459375" y1="7.073140625" x2="123.557790625" y2="94.94411875" width="0.025" layer="21"/>
+<wire x1="9.58395" y1="94.94411875" x2="60.316290625" y2="7.073140625" width="0.025" layer="21"/>
+</package>
+<package name="PDB">
+<wire x1="125.66233125" y1="118.183659375" x2="24.19766875" y2="118.183659375" width="0.025" layer="20" curve="95.857874"/>
+<wire x1="125.66233125" y1="105.3465" x2="125.66233125" y2="118.183659375" width="0.025" layer="20"/>
+<wire x1="125.66233125" y1="105.3465" x2="128.83733125" y2="99.847240625" width="0.025" layer="20" curve="59.999991"/>
+<wire x1="139.954640625" y1="93.428659375" x2="128.83733125" y2="99.847240625" width="0.025" layer="20"/>
+<wire x1="89.222309375" y1="5.55768125" x2="139.954640625" y2="93.428659375" width="0.025" layer="20" curve="95.857872"/>
+<wire x1="78.105" y1="11.976259375" x2="89.222309375" y2="5.55768125" width="0.025" layer="20"/>
+<wire x1="78.105" y1="11.976259375" x2="71.755" y2="11.976259375" width="0.025" layer="20" curve="60.000017"/>
+<wire x1="60.637690625" y1="5.55768125" x2="71.755" y2="11.976259375" width="0.025" layer="20"/>
+<wire x1="9.905359375" y1="93.428659375" x2="60.637690625" y2="5.55768125" width="0.025" layer="20" curve="95.857872"/>
+<wire x1="21.02266875" y1="99.847240625" x2="9.905359375" y2="93.428659375" width="0.025" layer="20"/>
+<wire x1="21.02266875" y1="99.847240625" x2="24.197665625" y2="105.3465" width="0.025" layer="20" curve="59.999991"/>
+<wire x1="24.19766875" y1="118.183659375" x2="24.19766875" y2="105.3465" width="0.025" layer="20"/>
+</package>
+<package name="PNE">
+<wire x1="0" y1="0" x2="76.2" y2="0" width="0.127" layer="20"/>
+<wire x1="76.2" y1="0" x2="76.2" y2="31.75" width="0.127" layer="20"/>
+<wire x1="76.2" y1="31.75" x2="0" y2="31.75" width="0.127" layer="20"/>
+<wire x1="0" y1="31.75" x2="0" y2="0" width="0.127" layer="20"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BOARD">
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BOARD">
+<gates>
+<gate name="G$1" symbol="BOARD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BKP">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ESC" package="ESC">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PCB" package="PCB">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PDB" package="PDB">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PNE" package="PNE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5240,6 +5349,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="L5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L2012C" package3d_urn="urn:adsk.eagle:package:23475/1" value="15uH"/>
 <part name="L6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L2012C" package3d_urn="urn:adsk.eagle:package:23475/1" value="15uH"/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
+<part name="U$5" library="board_outlines" deviceset="BOARD" device="PCB"/>
 </parts>
 <sheets>
 <sheet>
@@ -5443,6 +5553,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="464.82" y="108.204" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="464.82" y="105.156" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
+<instance part="U$5" gate="G$1" x="243.84" y="40.64"/>
 </instances>
 <busses>
 </busses>
