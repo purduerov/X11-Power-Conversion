@@ -3273,6 +3273,16 @@ BANANA_CONN
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="102,1,477.52,160.02,+5V,+5V_3.3V,,,,"/>
+<approved hash="201,1,477.52,160.02,+5V,+5V\, +5V_3.3V,,,,"/>
+<approved hash="113,1,132.747,89.431,FRAME1,,,,,"/>
+<approved hash="113,1,394.367,89.431,FRAME2,,,,,"/>
+<approved hash="113,1,73.9394,105.369,J1,,,,,"/>
+<approved hash="113,1,73.9394,97.7494,J2,,,,,"/>
+<approved hash="113,1,73.9394,90.1294,J3,,,,,"/>
+<approved hash="113,1,442.239,74.8894,J4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
