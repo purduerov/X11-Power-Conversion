@@ -5782,6 +5782,194 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="ET60T">
+<packages>
+<package name="ET60T_2">
+<pad name="R1-5" x="14.06" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R1-10" x="17.06" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R1-4" x="14.06" y="-1.54" drill="1.02" diameter="1.5" rot="R180"/>
+<pad name="R1-9" x="17.06" y="-1.54" drill="1.02" diameter="1.5"/>
+<pad name="R1-3" x="14.06" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R1-8" x="17.06" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R1-2" x="14.06" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R1-7" x="17.06" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R1-1" x="14.06" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="R1-6" x="17.06" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="R2-5" x="19.56" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R2-10" x="22.56" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R2-4" x="19.56" y="-1.54" drill="1.02" diameter="1.5"/>
+<pad name="R2-9" x="22.56" y="-1.54" drill="1.02" diameter="1.5"/>
+<pad name="R2-3" x="19.56" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R2-8" x="22.56" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R2-2" x="19.56" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R2-7" x="22.56" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R2-1" x="19.56" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="R2-6" x="22.56" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="R3-5" x="25.06" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R3-10" x="28.06" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R3-4" x="25.06" y="-1.54" drill="1.02" diameter="1.5"/>
+<pad name="R3-9" x="28.06" y="-1.54" drill="1.02" diameter="1.5"/>
+<pad name="R3-3" x="25.06" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R3-8" x="28.06" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R3-2" x="25.06" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R3-7" x="28.06" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R3-1" x="25.06" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="R3-6" x="28.06" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="R4-5" x="30.56" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R4-10" x="33.56" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R4-4" x="30.56" y="-1.54" drill="1.02" diameter="1.5"/>
+<pad name="R4-9" x="33.56" y="-1.54" drill="1.02" diameter="1.5"/>
+<pad name="R4-3" x="30.56" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R4-8" x="33.56" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R4-2" x="30.56" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R4-7" x="33.56" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R4-1" x="30.56" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="R4-6" x="33.56" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="R5-5" x="35.91" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R5-10" x="38.91" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R5-4" x="35.91" y="-1.54" drill="1.02" diameter="1.5"/>
+<pad name="R5-9" x="38.91" y="-1.54" drill="1.02" diameter="1.5"/>
+<pad name="R5-3" x="35.91" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R5-8" x="38.91" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R5-2" x="35.91" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R5-7" x="38.91" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R5-1" x="35.91" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="R5-6" x="38.91" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="R6-5" x="41.41" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R6-10" x="44.41" y="-4.04" drill="1.02" diameter="1.5"/>
+<pad name="R6-4" x="41.41" y="-1.54" drill="1.02" diameter="1.5"/>
+<pad name="R6-9" x="44.41" y="-1.54" drill="1.02" diameter="1.5"/>
+<pad name="R6-3" x="41.41" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R6-8" x="44.41" y="0.96" drill="1.02" diameter="1.5"/>
+<pad name="R6-2" x="41.41" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R6-7" x="44.41" y="3.46" drill="1.02" diameter="1.5"/>
+<pad name="R6-1" x="41.41" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="R6-6" x="44.41" y="5.96" drill="1.02" diameter="1.5"/>
+<pad name="B18" x="-6.35" y="-2.54" drill="1.02" diameter="1.5"/>
+<pad name="B19" x="-3.81" y="-2.54" drill="1.02" diameter="1.5"/>
+<pad name="B10" x="-6.35" y="0" drill="1.02" diameter="1.5"/>
+<pad name="B11" x="-3.81" y="0" drill="1.02" diameter="1.5"/>
+<pad name="B2" x="-6.35" y="2.54" drill="1.02" diameter="1.5"/>
+<pad name="B3" x="-3.81" y="2.54" drill="1.02" diameter="1.5"/>
+<pad name="B4" x="-1.27" y="2.54" drill="1.02" diameter="1.5"/>
+<pad name="B5" x="1.27" y="2.54" drill="1.02" diameter="1.5"/>
+<pad name="B13" x="1.27" y="0" drill="1.02" diameter="1.5"/>
+<pad name="B12" x="-1.27" y="0" drill="1.02" diameter="1.5"/>
+<pad name="B20" x="-1.27" y="-2.54" drill="1.02" diameter="1.5"/>
+<pad name="B21" x="1.27" y="-2.54" drill="1.02" diameter="1.5"/>
+<pad name="B22" x="3.81" y="-2.54" drill="1.02" diameter="1.5"/>
+<pad name="B14" x="3.81" y="0" drill="1.02" diameter="1.5"/>
+<pad name="B6" x="3.81" y="2.54" drill="1.02" diameter="1.5"/>
+<pad name="B7" x="6.35" y="2.54" drill="1.02" diameter="1.5"/>
+<pad name="B15" x="6.35" y="0" drill="1.02" diameter="1.5"/>
+<pad name="B23" x="6.35" y="-2.54" drill="1.02" diameter="1.5"/>
+<pad name="B1" x="-8.89" y="2.54" drill="1.02" diameter="1.5"/>
+<pad name="B9" x="-8.89" y="0" drill="1.02" diameter="1.5"/>
+<pad name="B17" x="-8.89" y="-2.54" drill="1.02" diameter="1.5"/>
+<pad name="B8" x="8.89" y="2.54" drill="1.02" diameter="1.5"/>
+<pad name="B16" x="8.89" y="0" drill="1.02" diameter="1.5"/>
+<pad name="B24" x="8.89" y="-2.54" drill="1.02" diameter="1.5"/>
+<circle x="49.91" y="0.96" radius="1.98436875" width="0.127" layer="21"/>
+<circle x="-14.7" y="0.96" radius="1.98436875" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ET60T_MIDDLE">
+<pin name="B8" x="-12.7" y="10.16" length="middle"/>
+<pin name="B7" x="-12.7" y="5.08" length="middle"/>
+<pin name="B6" x="-12.7" y="0" length="middle"/>
+<pin name="B5" x="-12.7" y="-5.08" length="middle"/>
+<pin name="B4" x="-12.7" y="-10.16" length="middle"/>
+<pin name="B3" x="-12.7" y="-15.24" length="middle"/>
+<pin name="B2" x="-12.7" y="-20.32" length="middle"/>
+<pin name="B1" x="-12.7" y="-25.4" length="middle"/>
+<pin name="B16" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="B15" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="B14" x="12.7" y="-20.32" length="middle" rot="R180"/>
+<pin name="B13" x="12.7" y="-25.4" length="middle" rot="R180"/>
+<pin name="B12" x="-12.7" y="30.48" length="middle"/>
+<pin name="B11" x="-12.7" y="25.4" length="middle"/>
+<pin name="B10" x="-12.7" y="20.32" length="middle"/>
+<pin name="B9" x="-12.7" y="15.24" length="middle"/>
+<pin name="B24" x="12.7" y="30.48" length="middle" rot="R180"/>
+<pin name="B23" x="12.7" y="25.4" length="middle" rot="R180"/>
+<pin name="B22" x="12.7" y="20.32" length="middle" rot="R180"/>
+<pin name="B21" x="12.7" y="15.24" length="middle" rot="R180"/>
+<pin name="B20" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="B19" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="B18" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="B17" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="35.56" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="35.56" width="0.254" layer="94"/>
+<wire x1="7.62" y1="35.56" x2="-7.62" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-27.94" x2="-7.62" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-30.48" x2="7.62" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-30.48" x2="7.62" y2="-27.94" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-30.48" x2="-7.62" y2="-30.48" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ET60T_SIDE">
+<pin name="S1" x="-12.7" y="12.7" length="middle"/>
+<pin name="S2" x="-12.7" y="7.62" length="middle"/>
+<pin name="S3" x="-12.7" y="2.54" length="middle"/>
+<pin name="S4" x="-12.7" y="-2.54" length="middle"/>
+<pin name="S5" x="-12.7" y="-7.62" length="middle"/>
+<pin name="S6" x="-12.7" y="-12.7" length="middle"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="5.08" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ET60T_2">
+<gates>
+<gate name="G$1" symbol="ET60T_MIDDLE" x="10.16" y="-15.24"/>
+<gate name="G$2" symbol="ET60T_SIDE" x="55.88" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="ET60T_2">
+<connects>
+<connect gate="G$1" pin="B1" pad="B1"/>
+<connect gate="G$1" pin="B10" pad="B10"/>
+<connect gate="G$1" pin="B11" pad="B11"/>
+<connect gate="G$1" pin="B12" pad="B12"/>
+<connect gate="G$1" pin="B13" pad="B13"/>
+<connect gate="G$1" pin="B14" pad="B14"/>
+<connect gate="G$1" pin="B15" pad="B15"/>
+<connect gate="G$1" pin="B16" pad="B16"/>
+<connect gate="G$1" pin="B17" pad="B17"/>
+<connect gate="G$1" pin="B18" pad="B18"/>
+<connect gate="G$1" pin="B19" pad="B19"/>
+<connect gate="G$1" pin="B2" pad="B2"/>
+<connect gate="G$1" pin="B20" pad="B20"/>
+<connect gate="G$1" pin="B21" pad="B21"/>
+<connect gate="G$1" pin="B22" pad="B22"/>
+<connect gate="G$1" pin="B23" pad="B23"/>
+<connect gate="G$1" pin="B24" pad="B24"/>
+<connect gate="G$1" pin="B3" pad="B3"/>
+<connect gate="G$1" pin="B4" pad="B4"/>
+<connect gate="G$1" pin="B5" pad="B5"/>
+<connect gate="G$1" pin="B6" pad="B6"/>
+<connect gate="G$1" pin="B7" pad="B7"/>
+<connect gate="G$1" pin="B8" pad="B8"/>
+<connect gate="G$1" pin="B9" pad="B9"/>
+<connect gate="G$2" pin="S1" pad="R1-1 R1-2 R1-3 R1-4 R1-5 R1-6 R1-7 R1-8 R1-9 R1-10"/>
+<connect gate="G$2" pin="S2" pad="R2-1 R2-2 R2-3 R2-4 R2-5 R2-6 R2-7 R2-8 R2-9 R2-10"/>
+<connect gate="G$2" pin="S3" pad="R3-1 R3-2 R3-3 R3-4 R3-5 R3-6 R3-7 R3-8 R3-9 R3-10"/>
+<connect gate="G$2" pin="S4" pad="R4-1 R4-2 R4-3 R4-4 R4-5 R4-6 R4-7 R4-8 R4-9 R4-10"/>
+<connect gate="G$2" pin="S5" pad="R5-1 R5-2 R5-3 R5-4 R5-5 R5-6 R5-7 R5-8 R5-9 R5-10"/>
+<connect gate="G$2" pin="S6" pad="R6-1 R6-2 R6-3 R6-4 R6-5 R6-6 R6-7 R6-8 R6-9 R6-10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5847,6 +6035,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C34" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:32380/1" value=".1uF"/>
 <part name="C35" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:32380/1" value=".01uF"/>
 <part name="C1" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:32380/1" value="10uF"/>
+<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
+<part name="U$2" library="ET60T" deviceset="ET60T_2" device=""/>
+<part name="U$6" library="ET60T" deviceset="ET60T_2" device=""/>
+<part name="U$11" library="ET60T" deviceset="ET60T_2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5978,6 +6170,17 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C34" gate="G$1" x="388.62" y="93.98"/>
 <instance part="C35" gate="G$1" x="388.62" y="86.36"/>
 <instance part="C1" gate="G$1" x="170.18" y="101.6"/>
+<instance part="FRAME3" gate="G$1" x="0" y="-180.34">
+<attribute name="DRAWING_NAME" x="217.17" y="-165.1" size="2.54" layer="94"/>
+<attribute name="LAST_DATE_TIME" x="217.17" y="-170.18" size="2.286" layer="94"/>
+<attribute name="SHEET" x="230.505" y="-175.26" size="2.54" layer="94"/>
+</instance>
+<instance part="U$2" gate="G$1" x="40.64" y="-55.88"/>
+<instance part="U$2" gate="G$2" x="91.44" y="-53.34"/>
+<instance part="U$6" gate="G$1" x="132.08" y="-55.88"/>
+<instance part="U$6" gate="G$2" x="187.96" y="-50.8"/>
+<instance part="U$11" gate="G$1" x="40.64" y="-134.62"/>
+<instance part="U$11" gate="G$2" x="99.06" y="-134.62"/>
 </instances>
 <busses>
 </busses>
@@ -6073,6 +6276,22 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="P+5" gate="1" pin="+12V"/>
 <wire x1="73.66" y1="104.14" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$2" pin="S1"/>
+<wire x1="78.74" y1="-40.64" x2="73.66" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-40.64" x2="71.12" y2="-40.64" width="0.1524" layer="91"/>
+<label x="66.04" y="-40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$2" pin="S1"/>
+<wire x1="175.26" y1="-38.1" x2="167.64" y2="-38.1" width="0.1524" layer="91"/>
+<label x="162.56" y="-38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$2" pin="S1"/>
+<wire x1="86.36" y1="-121.92" x2="78.74" y2="-121.92" width="0.1524" layer="91"/>
+<label x="73.66" y="-121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -6103,6 +6322,21 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
 <label x="66.04" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$2" pin="S3"/>
+<wire x1="78.74" y1="-50.8" x2="71.12" y2="-50.8" width="0.1524" layer="91"/>
+<label x="66.04" y="-50.8" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$2" pin="S3"/>
+<wire x1="175.26" y1="-48.26" x2="167.64" y2="-48.26" width="0.1524" layer="91"/>
+<label x="165.1" y="-48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$2" pin="S3"/>
+<wire x1="86.36" y1="-132.08" x2="78.74" y2="-132.08" width="0.1524" layer="91"/>
+<label x="76.2" y="-132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6135,6 +6369,16 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="J5" gate="G$1" pin="1"/>
 <wire x1="441.96" y1="66.04" x2="434.34" y2="66.04" width="0.1524" layer="91"/>
 <label x="434.34" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$2" pin="S5"/>
+<wire x1="78.74" y1="-60.96" x2="71.12" y2="-60.96" width="0.1524" layer="91"/>
+<label x="66.04" y="-60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$2" pin="S5"/>
+<wire x1="86.36" y1="-142.24" x2="78.74" y2="-142.24" width="0.1524" layer="91"/>
+<label x="73.66" y="-142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -6223,6 +6467,21 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="392.43" y1="86.36" x2="396.24" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="86.36" x2="396.24" y2="93.98" width="0.1524" layer="91"/>
 <junction x="396.24" y="93.98"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$2" pin="S6"/>
+<wire x1="78.74" y1="-66.04" x2="71.12" y2="-66.04" width="0.1524" layer="91"/>
+<label x="63.5" y="-66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$2" pin="S6"/>
+<wire x1="175.26" y1="-63.5" x2="167.64" y2="-63.5" width="0.1524" layer="91"/>
+<label x="160.02" y="-63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$2" pin="S6"/>
+<wire x1="86.36" y1="-147.32" x2="78.74" y2="-147.32" width="0.1524" layer="91"/>
+<label x="71.12" y="-147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -6385,6 +6644,21 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="166.37" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
 <junction x="162.56" y="101.6"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$2" pin="S2"/>
+<wire x1="78.74" y1="-45.72" x2="71.12" y2="-45.72" width="0.1524" layer="91"/>
+<label x="63.5" y="-45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$2" pin="S2"/>
+<wire x1="175.26" y1="-43.18" x2="167.64" y2="-43.18" width="0.1524" layer="91"/>
+<label x="160.02" y="-43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$2" pin="S2"/>
+<wire x1="86.36" y1="-127" x2="78.74" y2="-127" width="0.1524" layer="91"/>
+<label x="71.12" y="-127" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="5VGND" class="0">
 <segment>
@@ -6429,6 +6703,28 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="88.9" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
 <label x="66.04" y="88.9" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$2" pin="S4"/>
+<wire x1="78.74" y1="-55.88" x2="71.12" y2="-55.88" width="0.1524" layer="91"/>
+<label x="63.5" y="-55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$2" pin="S4"/>
+<wire x1="175.26" y1="-53.34" x2="167.64" y2="-53.34" width="0.1524" layer="91"/>
+<label x="160.02" y="-53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$2" pin="S4"/>
+<wire x1="86.36" y1="-137.16" x2="78.74" y2="-137.16" width="0.1524" layer="91"/>
+<label x="71.12" y="-137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="+3.3VGND" class="0">
+<segment>
+<pinref part="U$6" gate="G$2" pin="S5"/>
+<wire x1="175.26" y1="-58.42" x2="167.64" y2="-58.42" width="0.1524" layer="91"/>
+<label x="157.48" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
