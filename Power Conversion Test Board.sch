@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5867,82 +5867,82 @@ Source: AVX .. aphvc.pdf</description>
 <library name="ET60S">
 <packages>
 <package name="ET60S">
-<pad name="P$1" x="0" y="0" drill="0.6" diameter="1.02108125"/>
-<pad name="P$2" x="2.54" y="0" drill="0.6" diameter="1.02108125"/>
-<pad name="P$3" x="5.08" y="0" drill="0.6" diameter="1.02108125"/>
-<pad name="P$4" x="7.62" y="0" drill="0.6" diameter="1.02108125"/>
-<pad name="P$5" x="10.16" y="0" drill="0.6" diameter="1.02108125"/>
-<pad name="P$6" x="12.7" y="0" drill="0.6" diameter="1.02108125"/>
-<pad name="P$7" x="15.24" y="0" drill="0.6" diameter="1.02108125"/>
-<pad name="P$8" x="17.78" y="0" drill="0.6" diameter="1.02108125"/>
-<pad name="P$9" x="17.78" y="-2.54" drill="0.6" diameter="1.02108125"/>
-<pad name="P$10" x="15.24" y="-2.54" drill="0.6" diameter="1.02108125"/>
-<pad name="P$11" x="12.7" y="-2.54" drill="0.6" diameter="1.02108125"/>
-<pad name="P$12" x="10.16" y="-2.54" drill="0.6" diameter="1.02108125"/>
-<pad name="P$13" x="7.62" y="-2.54" drill="0.6" diameter="1.02108125"/>
-<pad name="P$14" x="5.08" y="-2.54" drill="0.6" diameter="1.02108125"/>
-<pad name="P$15" x="2.54" y="-2.54" drill="0.6" diameter="1.02108125"/>
-<pad name="P$16" x="0" y="-2.54" drill="0.6" diameter="1.02108125"/>
-<pad name="P$17" x="0" y="-5.08" drill="0.6" diameter="1.02108125"/>
-<pad name="P$18" x="2.54" y="-5.08" drill="0.6" diameter="1.02108125"/>
-<pad name="P$19" x="5.08" y="-5.08" drill="0.6" diameter="1.02108125"/>
-<pad name="P$20" x="7.62" y="-5.08" drill="0.6" diameter="1.02108125"/>
-<pad name="P$21" x="10.16" y="-5.08" drill="0.6" diameter="1.02108125"/>
-<pad name="P$22" x="12.7" y="-5.08" drill="0.6" diameter="1.02108125"/>
-<pad name="P$23" x="15.24" y="-5.08" drill="0.6" diameter="1.02108125"/>
-<pad name="P$24" x="17.78" y="-5.08" drill="0.6" diameter="1.02108125"/>
-<pad name="P$25" x="22.9616" y="-5.9944" drill="0.6" diameter="1.02108125"/>
-<pad name="P$26" x="22.9616" y="-3.5052" drill="0.6" diameter="1.02108125"/>
-<pad name="P$27" x="22.9616" y="-1.016" drill="0.6" diameter="1.02108125"/>
-<pad name="P$28" x="22.9616" y="1.4732" drill="0.6" diameter="1.02108125"/>
-<pad name="P$29" x="25.9588" y="1.4732" drill="0.6" diameter="1.02108125"/>
-<pad name="P$30" x="25.9588" y="-1.016" drill="0.6" diameter="1.02108125"/>
-<pad name="P$31" x="25.9588" y="-3.5052" drill="0.6" diameter="1.02108125"/>
-<pad name="P$32" x="25.9588" y="-5.9944" drill="0.6" diameter="1.02108125"/>
-<pad name="P$33" x="28.4734" y="-5.9944" drill="0.6" diameter="1.02108125"/>
-<pad name="P$34" x="28.4734" y="-3.5052" drill="0.6" diameter="1.02108125"/>
-<pad name="P$35" x="28.4734" y="-1.016" drill="0.6" diameter="1.02108125"/>
-<pad name="P$36" x="28.4734" y="1.4732" drill="0.6" diameter="1.02108125"/>
-<pad name="P$37" x="31.4706" y="1.4732" drill="0.6" diameter="1.02108125"/>
-<pad name="P$38" x="31.4706" y="-1.016" drill="0.6" diameter="1.02108125"/>
-<pad name="P$39" x="31.4706" y="-3.5052" drill="0.6" diameter="1.02108125"/>
-<pad name="P$40" x="31.4706" y="-5.9944" drill="0.6" diameter="1.02108125"/>
-<pad name="P$41" x="33.9852" y="-5.9944" drill="0.6" diameter="1.02108125"/>
-<pad name="P$42" x="33.9852" y="-3.5052" drill="0.6" diameter="1.02108125"/>
-<pad name="P$43" x="33.9852" y="-1.016" drill="0.6" diameter="1.02108125"/>
-<pad name="P$44" x="33.9852" y="1.4732" drill="0.6" diameter="1.02108125"/>
-<pad name="P$45" x="36.9824" y="1.4732" drill="0.6" diameter="1.02108125"/>
-<pad name="P$46" x="36.9824" y="-1.016" drill="0.6" diameter="1.02108125"/>
-<pad name="P$47" x="36.9824" y="-3.5052" drill="0.6" diameter="1.02108125"/>
-<pad name="P$48" x="36.9824" y="-5.9944" drill="0.6" diameter="1.02108125"/>
-<pad name="P$49" x="39.497" y="-5.9944" drill="0.6" diameter="1.02108125"/>
-<pad name="P$50" x="39.497" y="-3.5052" drill="0.6" diameter="1.02108125"/>
-<pad name="P$51" x="39.497" y="-1.016" drill="0.6" diameter="1.02108125"/>
-<pad name="P$52" x="39.497" y="1.4732" drill="0.6" diameter="1.02108125"/>
-<pad name="P$53" x="42.4942" y="1.4732" drill="0.6" diameter="1.02108125"/>
-<pad name="P$54" x="42.4942" y="-1.016" drill="0.6" diameter="1.02108125"/>
-<pad name="P$55" x="42.4942" y="-3.5052" drill="0.6" diameter="1.02108125"/>
-<pad name="P$56" x="42.4942" y="-5.9944" drill="0.6" diameter="1.02108125"/>
+<pad name="P$1" x="0" y="0" drill="1.02108125"/>
+<pad name="P$2" x="2.54" y="0" drill="1.02108125"/>
+<pad name="P$3" x="5.08" y="0" drill="1.02108125"/>
+<pad name="P$4" x="7.62" y="0" drill="1.02108125"/>
+<pad name="P$5" x="10.16" y="0" drill="1.02108125"/>
+<pad name="P$6" x="12.7" y="0" drill="1.02108125"/>
+<pad name="P$7" x="15.24" y="0" drill="1.02108125"/>
+<pad name="P$8" x="17.78" y="0" drill="1.02108125"/>
+<pad name="P$9" x="17.78" y="-2.54" drill="1.02108125"/>
+<pad name="P$10" x="15.24" y="-2.54" drill="1.02108125"/>
+<pad name="P$11" x="12.7" y="-2.54" drill="1.02108125"/>
+<pad name="P$12" x="10.16" y="-2.54" drill="1.02108125"/>
+<pad name="P$13" x="7.62" y="-2.54" drill="1.02108125"/>
+<pad name="P$14" x="5.08" y="-2.54" drill="1.02108125"/>
+<pad name="P$15" x="2.54" y="-2.54" drill="1.02108125"/>
+<pad name="P$16" x="0" y="-2.54" drill="1.02108125"/>
+<pad name="P$17" x="0" y="-5.08" drill="1.02108125"/>
+<pad name="P$18" x="2.54" y="-5.08" drill="1.02108125"/>
+<pad name="P$19" x="5.08" y="-5.08" drill="1.02108125"/>
+<pad name="P$20" x="7.62" y="-5.08" drill="1.02108125"/>
+<pad name="P$21" x="10.16" y="-5.08" drill="1.02108125"/>
+<pad name="P$22" x="12.7" y="-5.08" drill="1.02108125"/>
+<pad name="P$23" x="15.24" y="-5.08" drill="1.02108125"/>
+<pad name="P$24" x="17.78" y="-5.08" drill="1.02108125"/>
+<pad name="P$25" x="22.9616" y="-5.9944" drill="1.02108125"/>
+<pad name="P$26" x="22.9616" y="-3.5052" drill="1.02108125"/>
+<pad name="P$27" x="22.9616" y="-1.016" drill="1.02108125"/>
+<pad name="P$28" x="22.9616" y="1.4732" drill="1.02108125"/>
+<pad name="P$29" x="25.9588" y="1.4732" drill="1.02108125"/>
+<pad name="P$30" x="25.9588" y="-1.016" drill="1.02108125"/>
+<pad name="P$31" x="25.9588" y="-3.5052" drill="1.02108125"/>
+<pad name="P$32" x="25.9588" y="-5.9944" drill="1.02108125"/>
+<pad name="P$33" x="28.4734" y="-5.9944" drill="1.02108125"/>
+<pad name="P$34" x="28.4734" y="-3.5052" drill="1.02108125"/>
+<pad name="P$35" x="28.4734" y="-1.016" drill="1.02108125"/>
+<pad name="P$36" x="28.4734" y="1.4732" drill="1.02108125"/>
+<pad name="P$37" x="31.4706" y="1.4732" drill="1.02108125"/>
+<pad name="P$38" x="31.4706" y="-1.016" drill="1.02108125"/>
+<pad name="P$39" x="31.4706" y="-3.5052" drill="1.02108125"/>
+<pad name="P$40" x="31.4706" y="-5.9944" drill="1.02108125"/>
+<pad name="P$41" x="33.9852" y="-5.9944" drill="1.02108125"/>
+<pad name="P$42" x="33.9852" y="-3.5052" drill="1.02108125"/>
+<pad name="P$43" x="33.9852" y="-1.016" drill="1.02108125"/>
+<pad name="P$44" x="33.9852" y="1.4732" drill="1.02108125"/>
+<pad name="P$45" x="36.9824" y="1.4732" drill="1.02108125"/>
+<pad name="P$46" x="36.9824" y="-1.016" drill="1.02108125"/>
+<pad name="P$47" x="36.9824" y="-3.5052" drill="1.02108125"/>
+<pad name="P$48" x="36.9824" y="-5.9944" drill="1.02108125"/>
+<pad name="P$49" x="39.497" y="-5.9944" drill="1.02108125"/>
+<pad name="P$50" x="39.497" y="-3.5052" drill="1.02108125"/>
+<pad name="P$51" x="39.497" y="-1.016" drill="1.02108125"/>
+<pad name="P$52" x="39.497" y="1.4732" drill="1.02108125"/>
+<pad name="P$53" x="42.4942" y="1.4732" drill="1.02108125"/>
+<pad name="P$54" x="42.4942" y="-1.016" drill="1.02108125"/>
+<pad name="P$55" x="42.4942" y="-3.5052" drill="1.02108125"/>
+<pad name="P$56" x="42.4942" y="-5.9944" drill="1.02108125"/>
 <wire x1="-9.4996" y1="5.2578" x2="-9.4996" y2="-10.3378" width="0.127" layer="21"/>
 <wire x1="-9.4996" y1="-10.3378" x2="63.8048" y2="-10.3378" width="0.127" layer="21"/>
 <wire x1="63.8048" y1="-10.3378" x2="63.8048" y2="5.2578" width="0.127" layer="21"/>
 <wire x1="63.8048" y1="5.2578" x2="-9.4996" y2="5.2578" width="0.127" layer="21"/>
-<pad name="P$58" x="53.5178" y="-5.9944" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$59" x="50.5206" y="-5.9944" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$60" x="48.006" y="-5.9944" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$61" x="45.0088" y="-5.9944" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$62" x="45.0088" y="-3.5052" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$63" x="48.006" y="-3.5052" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$64" x="50.5206" y="-3.5052" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$65" x="53.5178" y="-3.5052" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$66" x="53.5178" y="-1.016" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$67" x="50.5206" y="-1.016" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$68" x="48.006" y="-1.016" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$69" x="45.0088" y="-1.016" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$70" x="45.0088" y="1.4732" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$71" x="48.006" y="1.4732" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$72" x="50.5206" y="1.4732" drill="0.6" diameter="1.02108125" rot="R90"/>
-<pad name="P$73" x="53.5178" y="1.4732" drill="0.6" diameter="1.02108125" rot="R90"/>
+<pad name="P$58" x="53.5178" y="-5.9944" drill="1.02108125" rot="R90"/>
+<pad name="P$59" x="50.5206" y="-5.9944" drill="1.02108125" rot="R90"/>
+<pad name="P$60" x="48.006" y="-5.9944" drill="1.02108125" rot="R90"/>
+<pad name="P$61" x="45.0088" y="-5.9944" drill="1.02108125" rot="R90"/>
+<pad name="P$62" x="45.0088" y="-3.5052" drill="1.02108125" rot="R90"/>
+<pad name="P$63" x="48.006" y="-3.5052" drill="1.02108125" rot="R90"/>
+<pad name="P$64" x="50.5206" y="-3.5052" drill="1.02108125" rot="R90"/>
+<pad name="P$65" x="53.5178" y="-3.5052" drill="1.02108125" rot="R90"/>
+<pad name="P$66" x="53.5178" y="-1.016" drill="1.02108125" rot="R90"/>
+<pad name="P$67" x="50.5206" y="-1.016" drill="1.02108125" rot="R90"/>
+<pad name="P$68" x="48.006" y="-1.016" drill="1.02108125" rot="R90"/>
+<pad name="P$69" x="45.0088" y="-1.016" drill="1.02108125" rot="R90"/>
+<pad name="P$70" x="45.0088" y="1.4732" drill="1.02108125" rot="R90"/>
+<pad name="P$71" x="48.006" y="1.4732" drill="1.02108125" rot="R90"/>
+<pad name="P$72" x="50.5206" y="1.4732" drill="1.02108125" rot="R90"/>
+<pad name="P$73" x="53.5178" y="1.4732" drill="1.02108125" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -6199,229 +6199,229 @@ Source: AVX .. aphvc.pdf</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0">
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="217.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="C6" gate="G$1" x="182.88" y="147.32" rot="R90">
+<instance part="C6" gate="G$1" x="182.88" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="179.959" y="148.844" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="185.039" y="148.844" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="U1" gate="G$1" x="149.86" y="139.7">
+<instance part="U1" gate="G$1" x="149.86" y="139.7" smashed="yes">
 <attribute name="NAME" x="137.16" y="157.48" size="1.778" layer="95"/>
 </instance>
-<instance part="U$1" gate="G$1" x="187.96" y="134.62" rot="R90">
+<instance part="U$1" gate="G$1" x="187.96" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="185.42" y="134.62" size="1.27" layer="95" rot="R90"/>
 </instance>
-<instance part="P+1" gate="1" x="215.9" y="162.56">
+<instance part="P+1" gate="1" x="215.9" y="162.56" smashed="yes">
 <attribute name="VALUE" x="213.36" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+2" gate="1" x="106.68" y="160.02">
+<instance part="P+2" gate="1" x="106.68" y="160.02" smashed="yes">
 <attribute name="VALUE" x="104.14" y="154.94" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="170.18" y="114.3">
+<instance part="R1" gate="G$1" x="170.18" y="114.3" smashed="yes">
 <attribute name="NAME" x="170.18" y="115.824" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="170.18" y="112.776" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="FRAME2" gate="G$1" x="261.62" y="0">
+<instance part="FRAME2" gate="G$1" x="261.62" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="478.79" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="478.79" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="492.125" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="C20" gate="G$1" x="444.5" y="147.32" rot="R90">
+<instance part="C20" gate="G$1" x="444.5" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="441.579" y="148.844" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="446.659" y="148.844" size="1.778" layer="96" font="vector" rot="R90"/>
 </instance>
-<instance part="U2" gate="G$1" x="411.48" y="139.7">
+<instance part="U2" gate="G$1" x="411.48" y="139.7" smashed="yes">
 <attribute name="NAME" x="398.78" y="157.48" size="1.778" layer="95"/>
 </instance>
-<instance part="U$3" gate="G$1" x="449.58" y="134.62" rot="R90">
+<instance part="U$3" gate="G$1" x="449.58" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="447.04" y="134.62" size="1.27" layer="95" rot="R90"/>
 </instance>
-<instance part="P+3" gate="1" x="477.52" y="162.56">
+<instance part="P+3" gate="1" x="477.52" y="162.56" smashed="yes">
 <attribute name="VALUE" x="474.98" y="157.48" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="P+4" gate="1" x="350.52" y="160.02">
+<instance part="P+4" gate="1" x="350.52" y="160.02" smashed="yes">
 <attribute name="VALUE" x="347.98" y="154.94" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="388.62" y="114.3">
+<instance part="R3" gate="G$1" x="388.62" y="114.3" smashed="yes">
 <attribute name="NAME" x="388.62" y="115.824" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="388.62" y="112.776" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="U$4" gate="G$1" x="345.44" y="71.12">
+<instance part="U$4" gate="G$1" x="345.44" y="71.12" smashed="yes">
 <attribute name="NAME" x="335.28" y="58.42" size="1.27" layer="95"/>
 </instance>
-<instance part="C28" gate="G$1" x="363.22" y="66.04">
+<instance part="C28" gate="G$1" x="363.22" y="66.04" smashed="yes">
 <attribute name="NAME" x="364.236" y="66.675" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="364.236" y="61.849" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="R4" gate="G$1" x="363.22" y="48.26" rot="R90">
+<instance part="R4" gate="G$1" x="363.22" y="48.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="361.696" y="48.26" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="364.744" y="48.26" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="203.2" y="106.68">
+<instance part="R2" gate="G$1" x="203.2" y="106.68" smashed="yes">
 <attribute name="NAME" x="203.2" y="108.204" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="203.2" y="105.156" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="U$5" gate="G$1" x="246.38" y="35.56"/>
-<instance part="U$8" gate="G$1" x="203.2" y="142.24" rot="R90">
+<instance part="U$5" gate="G$1" x="246.38" y="35.56" smashed="yes"/>
+<instance part="U$8" gate="G$1" x="203.2" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="208.28" y="140.97" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="208.28" y="146.05" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$9" gate="G$1" x="464.82" y="142.24" rot="R90">
+<instance part="U$9" gate="G$1" x="464.82" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="469.9" y="140.97" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="469.9" y="146.05" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$10" gate="G$1" x="464.82" y="114.3" rot="R90">
+<instance part="U$10" gate="G$1" x="464.82" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="469.9" y="113.03" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="469.9" y="118.11" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U$7" gate="G$1" x="203.2" y="114.3" rot="R90">
+<instance part="U$7" gate="G$1" x="203.2" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="208.28" y="113.03" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="208.28" y="118.11" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R5" gate="G$1" x="464.82" y="106.68">
+<instance part="R5" gate="G$1" x="464.82" y="106.68" smashed="yes">
 <attribute name="NAME" x="464.82" y="108.204" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="464.82" y="105.156" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="J1" gate="G$1" x="76.2" y="104.14">
+<instance part="J1" gate="G$1" x="76.2" y="104.14" smashed="yes">
 <attribute name="NAME" x="75.184" y="105.918" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="75.184" y="101.092" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J2" gate="G$1" x="76.2" y="96.52">
+<instance part="J2" gate="G$1" x="76.2" y="96.52" smashed="yes">
 <attribute name="NAME" x="75.184" y="98.298" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="75.184" y="93.472" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="P+5" gate="1" x="66.04" y="104.14" rot="R90">
+<instance part="P+5" gate="1" x="66.04" y="104.14" smashed="yes" rot="R90">
 <attribute name="VALUE" x="71.12" y="101.6" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J3" gate="G$1" x="76.2" y="88.9">
+<instance part="J3" gate="G$1" x="76.2" y="88.9" smashed="yes">
 <attribute name="NAME" x="75.184" y="90.678" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="75.184" y="85.852" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J4" gate="G$1" x="444.5" y="73.66">
+<instance part="J4" gate="G$1" x="444.5" y="73.66" smashed="yes">
 <attribute name="NAME" x="443.484" y="75.438" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="443.484" y="70.612" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J5" gate="G$1" x="444.5" y="66.04">
+<instance part="J5" gate="G$1" x="444.5" y="66.04" smashed="yes">
 <attribute name="NAME" x="443.484" y="67.818" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="443.484" y="62.992" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J6" gate="G$1" x="76.2" y="81.28">
+<instance part="J6" gate="G$1" x="76.2" y="81.28" smashed="yes">
 <attribute name="NAME" x="75.184" y="83.058" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="75.184" y="78.232" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C14" gate="G$1" x="320.04" y="129.54">
+<instance part="C14" gate="G$1" x="320.04" y="129.54" smashed="yes">
 <attribute name="NAME" x="321.056" y="130.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="321.056" y="125.349" size="1.778" layer="96"/>
 </instance>
-<instance part="C29" gate="G$1" x="332.74" y="129.54">
+<instance part="C29" gate="G$1" x="332.74" y="129.54" smashed="yes">
 <attribute name="NAME" x="333.756" y="130.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="333.756" y="125.349" size="1.778" layer="96"/>
 </instance>
-<instance part="C30" gate="G$1" x="345.44" y="129.54">
+<instance part="C30" gate="G$1" x="345.44" y="129.54" smashed="yes">
 <attribute name="NAME" x="346.456" y="130.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="346.456" y="125.349" size="1.778" layer="96"/>
 </instance>
-<instance part="C31" gate="G$1" x="358.14" y="129.54">
+<instance part="C31" gate="G$1" x="358.14" y="129.54" smashed="yes">
 <attribute name="NAME" x="359.156" y="130.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="359.156" y="125.349" size="1.778" layer="96"/>
 </instance>
-<instance part="C15" gate="G$1" x="76.2" y="129.54">
+<instance part="C15" gate="G$1" x="76.2" y="129.54" smashed="yes">
 <attribute name="NAME" x="77.216" y="130.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.216" y="125.349" size="1.778" layer="96"/>
 </instance>
-<instance part="C16" gate="G$1" x="88.9" y="129.54">
+<instance part="C16" gate="G$1" x="88.9" y="129.54" smashed="yes">
 <attribute name="NAME" x="89.916" y="130.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="89.916" y="125.349" size="1.778" layer="96"/>
 </instance>
-<instance part="C17" gate="G$1" x="101.6" y="129.54">
+<instance part="C17" gate="G$1" x="101.6" y="129.54" smashed="yes">
 <attribute name="NAME" x="102.616" y="130.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="102.616" y="125.349" size="1.778" layer="96"/>
 </instance>
-<instance part="C18" gate="G$1" x="114.3" y="129.54">
+<instance part="C18" gate="G$1" x="114.3" y="129.54" smashed="yes">
 <attribute name="NAME" x="115.316" y="130.175" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.316" y="125.349" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="370.84" y="129.54">
-<attribute name="NAME" x="372.364" y="132.461" size="1.778" layer="95"/>
-<attribute name="VALUE" x="372.364" y="127.381" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="370.84" y="129.54" smashed="yes">
+<attribute name="NAME" x="372.364" y="129.921" size="1.778" layer="95"/>
+<attribute name="VALUE" x="372.364" y="124.841" size="1.778" layer="96"/>
 </instance>
-<instance part="C24" gate="G$1" x="477.52" y="132.08">
+<instance part="C24" gate="G$1" x="477.52" y="132.08" smashed="yes">
 <attribute name="NAME" x="478.536" y="132.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="478.536" y="127.889" size="1.778" layer="96"/>
 </instance>
-<instance part="C25" gate="G$1" x="490.22" y="132.08">
+<instance part="C25" gate="G$1" x="490.22" y="132.08" smashed="yes">
 <attribute name="NAME" x="491.236" y="132.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="491.236" y="127.889" size="1.778" layer="96"/>
 </instance>
-<instance part="C26" gate="G$1" x="502.92" y="132.08">
+<instance part="C26" gate="G$1" x="502.92" y="132.08" smashed="yes">
 <attribute name="NAME" x="503.936" y="132.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="503.936" y="127.889" size="1.778" layer="96"/>
 </instance>
-<instance part="C10" gate="G$1" x="218.44" y="132.08">
+<instance part="C10" gate="G$1" x="218.44" y="132.08" smashed="yes">
 <attribute name="NAME" x="219.456" y="132.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="219.456" y="127.889" size="1.778" layer="96"/>
 </instance>
-<instance part="C11" gate="G$1" x="231.14" y="132.08">
+<instance part="C11" gate="G$1" x="231.14" y="132.08" smashed="yes">
 <attribute name="NAME" x="232.156" y="132.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="232.156" y="127.889" size="1.778" layer="96"/>
 </instance>
-<instance part="C12" gate="G$1" x="243.84" y="132.08">
+<instance part="C12" gate="G$1" x="243.84" y="132.08" smashed="yes">
 <attribute name="NAME" x="244.856" y="132.715" size="1.778" layer="95"/>
 <attribute name="VALUE" x="244.856" y="127.889" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="127" y="129.54">
-<attribute name="NAME" x="128.524" y="132.461" size="1.778" layer="95"/>
-<attribute name="VALUE" x="128.524" y="127.381" size="1.778" layer="96"/>
+<instance part="C7" gate="G$1" x="127" y="129.54" smashed="yes">
+<attribute name="NAME" x="128.524" y="129.921" size="1.778" layer="95"/>
+<attribute name="VALUE" x="128.524" y="124.841" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="170.18" y="109.22">
+<instance part="C5" gate="G$1" x="170.18" y="109.22" smashed="yes">
 <attribute name="NAME" x="163.83" y="113.03" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="171.45" y="113.03" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C9" gate="G$1" x="170.18" y="93.98">
+<instance part="C9" gate="G$1" x="170.18" y="93.98" smashed="yes">
 <attribute name="NAME" x="163.83" y="97.79" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="171.45" y="97.79" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C13" gate="G$1" x="170.18" y="86.36">
+<instance part="C13" gate="G$1" x="170.18" y="86.36" smashed="yes">
 <attribute name="NAME" x="163.83" y="90.17" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="171.45" y="90.17" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C32" gate="G$1" x="388.62" y="109.22">
+<instance part="C32" gate="G$1" x="388.62" y="109.22" smashed="yes">
 <attribute name="NAME" x="382.27" y="113.03" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="389.89" y="113.03" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C33" gate="G$1" x="388.62" y="101.6">
+<instance part="C33" gate="G$1" x="388.62" y="101.6" smashed="yes">
 <attribute name="NAME" x="382.27" y="105.41" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="389.89" y="105.41" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C34" gate="G$1" x="388.62" y="93.98">
+<instance part="C34" gate="G$1" x="388.62" y="93.98" smashed="yes">
 <attribute name="NAME" x="382.27" y="97.79" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="389.89" y="97.79" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C35" gate="G$1" x="388.62" y="86.36">
+<instance part="C35" gate="G$1" x="388.62" y="86.36" smashed="yes">
 <attribute name="NAME" x="382.27" y="90.17" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="389.89" y="90.17" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="C1" gate="G$1" x="170.18" y="101.6">
+<instance part="C1" gate="G$1" x="170.18" y="101.6" smashed="yes">
 <attribute name="NAME" x="163.83" y="105.41" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="171.45" y="105.41" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="FRAME3" gate="G$1" x="0" y="-180.34">
+<instance part="FRAME3" gate="G$1" x="0" y="-180.34" smashed="yes">
 <attribute name="DRAWING_NAME" x="217.17" y="-165.1" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="217.17" y="-170.18" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="-175.26" size="2.54" layer="94"/>
 </instance>
-<instance part="U$12" gate="G$1" x="226.06" y="-93.98"/>
-<instance part="U$13" gate="G$1" x="226.06" y="-116.84"/>
-<instance part="U$14" gate="G$1" x="226.06" y="-139.7"/>
-<instance part="U$2" gate="G$1" x="27.94" y="-27.94"/>
-<instance part="U$2" gate="G$2" x="27.94" y="-86.36"/>
-<instance part="U$6" gate="G$1" x="68.58" y="-27.94"/>
-<instance part="U$6" gate="G$2" x="68.58" y="-86.36"/>
-<instance part="U$11" gate="G$1" x="106.68" y="-27.94"/>
-<instance part="U$11" gate="G$2" x="106.68" y="-86.36"/>
+<instance part="U$12" gate="G$1" x="226.06" y="-93.98" smashed="yes"/>
+<instance part="U$13" gate="G$1" x="226.06" y="-116.84" smashed="yes"/>
+<instance part="U$14" gate="G$1" x="226.06" y="-139.7" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="27.94" y="-27.94" smashed="yes"/>
+<instance part="U$2" gate="G$2" x="27.94" y="-86.36" smashed="yes"/>
+<instance part="U$6" gate="G$1" x="60.96" y="-27.94" smashed="yes"/>
+<instance part="U$6" gate="G$2" x="60.96" y="-86.36" smashed="yes"/>
+<instance part="U$11" gate="G$1" x="93.98" y="-27.94" smashed="yes"/>
+<instance part="U$11" gate="G$2" x="93.98" y="-86.36" smashed="yes"/>
 </instances>
 <busses>
 </busses>
