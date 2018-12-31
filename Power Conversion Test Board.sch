@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -5782,57 +5782,332 @@ Source: AVX .. aphvc.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="audio amplifier example" urn="urn:adsk.eagle:library:970892">
+<description>
+</description>
+<packages>
+<package name="R0402" urn="urn:adsk.eagle:footprint:970914/1" library_version="4">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.762" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="R0603" urn="urn:adsk.eagle:footprint:970915/1" library_version="4">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.432" y1="-0.356" x2="0.432" y2="-0.356" width="0.1524" layer="51"/>
+<wire x1="0.432" y1="0.356" x2="-0.432" y2="0.356" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<rectangle x1="0.4318" y1="-0.4318" x2="0.8382" y2="0.4318" layer="51"/>
+<rectangle x1="-0.8382" y1="-0.4318" x2="-0.4318" y2="0.4318" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<smd name="1" x="-0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1" dy="1.1" layer="1"/>
+<text x="-0.889" y="0.889" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.889" y="-2.032" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="R0805" urn="urn:adsk.eagle:footprint:970916/1" library_version="4">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.973" y1="-0.983" x2="-1.973" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.973" y1="-0.983" x2="-1.973" y2="0.983" width="0.0508" layer="39"/>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="21"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="21"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<smd name="1" x="-1" y="0" dx="1.1" dy="1.4" layer="1"/>
+<smd name="2" x="1" y="0" dx="1.1" dy="1.4" layer="1"/>
+<text x="-0.762" y="1.016" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.762" y="-2.286" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="R1206" urn="urn:adsk.eagle:footprint:970917/1" library_version="4">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
+<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+<smd name="1" x="-1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<smd name="2" x="1.422" y="0" dx="1.6" dy="1.803" layer="1"/>
+<text x="-1.397" y="1.143" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.397" y="-2.413" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="R0402" urn="urn:adsk.eagle:package:970935/2" type="model" library_version="4">
+<description>RESISTOR
+chip</description>
+<packageinstances>
+<packageinstance name="R0402"/>
+</packageinstances>
+</package3d>
+<package3d name="R0603" urn="urn:adsk.eagle:package:970938/2" type="model" library_version="4">
+<description>RESISTOR
+chip</description>
+<packageinstances>
+<packageinstance name="R0603"/>
+</packageinstances>
+</package3d>
+<package3d name="R0805" urn="urn:adsk.eagle:package:970936/2" type="model" library_version="4">
+<description>RESISTOR
+chip</description>
+<packageinstances>
+<packageinstance name="R0805"/>
+</packageinstances>
+</package3d>
+<package3d name="R1206" urn="urn:adsk.eagle:package:970937/2" type="model" library_version="4">
+<description>RESISTOR
+chip</description>
+<packageinstances>
+<packageinstance name="R1206"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="R-US" urn="urn:adsk.eagle:symbol:970913/1" library_version="4">
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="R-US_" urn="urn:adsk.eagle:component:970948/2" prefix="R" library_version="4">
+<description>&lt;B&gt;RESISTOR&lt;/B&gt;, American symbol</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="R0402" package="R0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:970935/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R0603" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:970938/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R0805" package="R0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:970936/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R1206" package="R1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:970937/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 <library name="PDB_PCB_connectors">
 <packages>
-<package name="PDB_PCB">
-<pad name="+12V1" x="-0.889" y="-33.939" drill="1"/>
-<pad name="+12V2" x="1.651" y="-33.939" drill="1"/>
-<pad name="+12V3" x="-0.889" y="-31.399" drill="1"/>
-<pad name="+12V4" x="1.651" y="-31.399" drill="1"/>
-<pad name="+12V5" x="-0.889" y="-28.859" drill="1"/>
-<pad name="+12V6" x="1.651" y="-28.859" drill="1"/>
-<pad name="+12V7" x="-0.889" y="-26.319" drill="1"/>
-<pad name="+12V8" x="1.651" y="-26.319" drill="1"/>
-<pad name="+12V9" x="-0.889" y="-23.779" drill="1"/>
-<pad name="+12V10" x="1.651" y="-23.779" drill="1"/>
-<pad name="+12V11" x="-0.889" y="-21.239" drill="1"/>
-<pad name="+12V12" x="1.651" y="-21.239" drill="1"/>
-<pad name="+12V13" x="-0.889" y="-18.699" drill="1"/>
-<pad name="+12V14" x="1.651" y="-18.699" drill="1"/>
-<pad name="+12V15" x="-0.889" y="-16.159" drill="1"/>
-<pad name="+12V16" x="1.651" y="-16.159" drill="1"/>
-<pad name="+12V17" x="-0.889" y="-13.619" drill="1"/>
-<pad name="+12V18" x="1.651" y="-13.619" drill="1"/>
-<pad name="+12V19" x="-0.889" y="-11.079" drill="1"/>
-<pad name="+12V20" x="1.651" y="-11.079" drill="1"/>
-<pad name="+12V21" x="-0.889" y="-8.539" drill="1"/>
-<pad name="+12V22" x="1.651" y="-8.539" drill="1"/>
-<pad name="+12V23" x="-0.889" y="-5.999" drill="1"/>
-<pad name="+12V24" x="1.651" y="-5.999" drill="1"/>
-<pad name="GND1" x="-0.889" y="-3.459" drill="1"/>
-<pad name="GND2" x="1.651" y="-3.459" drill="1"/>
-<pad name="GND3" x="-0.889" y="-0.919" drill="1"/>
-<pad name="GND4" x="1.651" y="-0.919" drill="1"/>
-<pad name="GND5" x="-0.889" y="1.621" drill="1"/>
-<pad name="GND6" x="1.651" y="1.621" drill="1"/>
-<pad name="GND7" x="-0.889" y="4.161" drill="1"/>
-<pad name="GND8" x="1.651" y="4.161" drill="1"/>
-<pad name="GND9" x="-0.889" y="6.701" drill="1"/>
-<pad name="GND10" x="1.651" y="6.701" drill="1"/>
-<pad name="GND11" x="-0.889" y="9.241" drill="1"/>
-<pad name="GND12" x="1.651" y="9.241" drill="1"/>
-<pad name="GND13" x="-0.889" y="11.781" drill="1"/>
-<pad name="GND14" x="1.651" y="11.781" drill="1"/>
-<pad name="GND15" x="-0.889" y="14.321" drill="1"/>
-<pad name="GND16" x="1.651" y="14.321" drill="1"/>
-<pad name="GND17" x="-0.889" y="16.861" drill="1"/>
-<pad name="GND18" x="1.651" y="16.861" drill="1"/>
-<pad name="GND19" x="-0.889" y="19.401" drill="1"/>
-<pad name="GND20" x="1.651" y="19.401" drill="1"/>
-<pad name="GND21" x="-0.889" y="21.941" drill="1"/>
-<pad name="GND22" x="1.651" y="21.941" drill="1"/>
-<pad name="GND23" x="-0.889" y="24.481" drill="1"/>
-<pad name="GND24" x="1.651" y="24.481" drill="1"/>
+<package name="PDB_PCB_2">
+<pad name="+12V1" x="38.450003125" y="16.569265625" drill="1" rot="R30"/>
+<pad name="+12V2" x="40.64970625" y="17.839265625" drill="1" rot="R30"/>
+<pad name="+12V3" x="37.180003125" y="18.76896875" drill="1" rot="R30"/>
+<pad name="+12V4" x="39.37970625" y="20.03896875" drill="1" rot="R30"/>
+<pad name="+12V5" x="35.910003125" y="20.968675" drill="1" rot="R30"/>
+<pad name="+12V6" x="38.10970625" y="22.238675" drill="1" rot="R30"/>
+<pad name="+12V7" x="34.640003125" y="23.168378125" drill="1" rot="R30"/>
+<pad name="+12V8" x="36.83970625" y="24.438378125" drill="1" rot="R30"/>
+<pad name="+12V9" x="33.370003125" y="25.368084375" drill="1" rot="R30"/>
+<pad name="+12V10" x="35.56970625" y="26.638084375" drill="1" rot="R30"/>
+<pad name="+12V11" x="32.100003125" y="27.5677875" drill="1" rot="R30"/>
+<pad name="+12V12" x="34.29970625" y="28.8377875" drill="1" rot="R30"/>
+<pad name="+12V13" x="30.830003125" y="29.76749375" drill="1" rot="R30"/>
+<pad name="+12V14" x="33.02970625" y="31.03749375" drill="1" rot="R30"/>
+<pad name="+12V15" x="29.560003125" y="31.967196875" drill="1" rot="R30"/>
+<pad name="+12V16" x="31.75970625" y="33.237196875" drill="1" rot="R30"/>
+<pad name="+12V17" x="28.290003125" y="34.166903125" drill="1" rot="R30"/>
+<pad name="+12V18" x="30.48970625" y="35.436903125" drill="1" rot="R30"/>
+<pad name="+12V19" x="27.020003125" y="36.36660625" drill="1" rot="R30"/>
+<pad name="+12V20" x="29.21970625" y="37.63660625" drill="1" rot="R30"/>
+<pad name="+12V21" x="25.750003125" y="38.566309375" drill="1" rot="R30"/>
+<pad name="+12V22" x="27.94970625" y="39.836309375" drill="1" rot="R30"/>
+<pad name="+12V23" x="24.480003125" y="40.766015625" drill="1" rot="R30"/>
+<pad name="+12V24" x="26.67970625" y="42.036015625" drill="1" rot="R30"/>
+<pad name="GND1" x="23.210003125" y="42.96571875" drill="1" rot="R30"/>
+<pad name="GND2" x="25.40970625" y="44.23571875" drill="1" rot="R30"/>
+<pad name="GND3" x="21.94000625" y="45.165425" drill="1" rot="R30"/>
+<pad name="GND4" x="24.13970625" y="46.435421875" drill="1" rot="R30"/>
+<pad name="GND5" x="20.67000625" y="47.365125" drill="1" rot="R30"/>
+<pad name="GND6" x="22.86970625" y="48.635125" drill="1" rot="R30"/>
+<pad name="GND7" x="19.40000625" y="49.56483125" drill="1" rot="R30"/>
+<pad name="GND8" x="21.599709375" y="50.83483125" drill="1" rot="R30"/>
+<pad name="GND9" x="18.13000625" y="51.764534375" drill="1" rot="R30"/>
+<pad name="GND10" x="20.329709375" y="53.034534375" drill="1" rot="R30"/>
+<pad name="GND11" x="16.86000625" y="53.964240625" drill="1" rot="R30"/>
+<pad name="GND12" x="19.059709375" y="55.234240625" drill="1" rot="R30"/>
+<pad name="GND13" x="15.59000625" y="56.16394375" drill="1" rot="R30"/>
+<pad name="GND14" x="17.789709375" y="57.43394375" drill="1" rot="R30"/>
+<pad name="GND15" x="14.32000625" y="58.363646875" drill="1" rot="R30"/>
+<pad name="GND16" x="16.519709375" y="59.633646875" drill="1" rot="R30"/>
+<pad name="GND17" x="13.05000625" y="60.563353125" drill="1" rot="R30"/>
+<pad name="GND18" x="15.249709375" y="61.833353125" drill="1" rot="R30"/>
+<pad name="GND19" x="11.78000625" y="62.76305625" drill="1" rot="R30"/>
+<pad name="GND20" x="13.979709375" y="64.03305625" drill="1" rot="R30"/>
+<pad name="GND21" x="10.51000625" y="64.9627625" drill="1" rot="R30"/>
+<pad name="GND22" x="12.709709375" y="66.2327625" drill="1" rot="R30"/>
+<pad name="GND23" x="9.24000625" y="67.162465625" drill="1" rot="R30"/>
+<pad name="GND24" x="11.439709375" y="68.432465625" drill="1" rot="R30"/>
+<pad name="+12V25" x="97.54" y="18.01644375" drill="1" rot="R150"/>
+<pad name="+12V26" x="95.340296875" y="19.286446875" drill="1" rot="R150"/>
+<pad name="+12V27" x="98.81" y="20.21615" drill="1" rot="R150"/>
+<pad name="+12V28" x="96.610296875" y="21.48615" drill="1" rot="R150"/>
+<pad name="+12V29" x="100.08" y="22.415853125" drill="1" rot="R150"/>
+<pad name="+12V30" x="97.880296875" y="23.68585625" drill="1" rot="R150"/>
+<pad name="+12V31" x="101.349996875" y="24.615559375" drill="1" rot="R150"/>
+<pad name="+12V32" x="99.150296875" y="25.885559375" drill="1" rot="R150"/>
+<pad name="+12V33" x="102.62" y="26.8152625" drill="1" rot="R150"/>
+<pad name="+12V34" x="100.420296875" y="28.085265625" drill="1" rot="R150"/>
+<pad name="+12V35" x="103.889996875" y="29.01496875" drill="1" rot="R150"/>
+<pad name="+12V36" x="101.690296875" y="30.28496875" drill="1" rot="R150"/>
+<pad name="+12V37" x="105.159996875" y="31.214675" drill="1" rot="R150"/>
+<pad name="+12V38" x="102.960296875" y="32.484675" drill="1" rot="R150"/>
+<pad name="+12V39" x="106.429996875" y="33.414378125" drill="1" rot="R150"/>
+<pad name="+12V40" x="104.230296875" y="34.684378125" drill="1" rot="R150"/>
+<pad name="+12V41" x="107.699996875" y="35.614084375" drill="1" rot="R150"/>
+<pad name="+12V42" x="105.500296875" y="36.884084375" drill="1" rot="R150"/>
+<pad name="+12V43" x="108.97" y="37.8137875" drill="1" rot="R150"/>
+<pad name="+12V44" x="106.770296875" y="39.0837875" drill="1" rot="R150"/>
+<pad name="+12V45" x="110.24" y="40.013490625" drill="1" rot="R150"/>
+<pad name="+12V46" x="108.040296875" y="41.283490625" drill="1" rot="R150"/>
+<pad name="+12V47" x="111.51" y="42.21319375" drill="1" rot="R150"/>
+<pad name="+12V48" x="109.310296875" y="43.483196875" drill="1" rot="R150"/>
+<pad name="GND25" x="112.78" y="44.4129" drill="1" rot="R150"/>
+<pad name="GND26" x="110.580296875" y="45.6829" drill="1" rot="R150"/>
+<pad name="GND27" x="114.04999375" y="46.61260625" drill="1" rot="R150"/>
+<pad name="GND28" x="111.85029375" y="47.882603125" drill="1" rot="R150"/>
+<pad name="GND29" x="115.31999375" y="48.81230625" drill="1" rot="R150"/>
+<pad name="GND30" x="113.120296875" y="50.082303125" drill="1" rot="R150"/>
+<pad name="GND31" x="116.589996875" y="51.0120125" drill="1" rot="R150"/>
+<pad name="GND32" x="114.39029375" y="52.282009375" drill="1" rot="R150"/>
+<pad name="GND33" x="117.859996875" y="53.211715625" drill="1" rot="R150"/>
+<pad name="GND34" x="115.660290625" y="54.481715625" drill="1" rot="R150"/>
+<pad name="GND35" x="119.129996875" y="55.411421875" drill="1" rot="R150"/>
+<pad name="GND36" x="116.930290625" y="56.681421875" drill="1" rot="R150"/>
+<pad name="GND37" x="120.399996875" y="57.611125" drill="1" rot="R150"/>
+<pad name="GND38" x="118.200290625" y="58.881125" drill="1" rot="R150"/>
+<pad name="GND39" x="121.66999375" y="59.810828125" drill="1" rot="R150"/>
+<pad name="GND40" x="119.47029375" y="61.080828125" drill="1" rot="R150"/>
+<pad name="GND41" x="122.939996875" y="62.010534375" drill="1" rot="R150"/>
+<pad name="GND42" x="120.74029375" y="63.280534375" drill="1" rot="R150"/>
+<pad name="GND43" x="124.20999375" y="64.2102375" drill="1" rot="R150"/>
+<pad name="GND44" x="122.01029375" y="65.4802375" drill="1" rot="R150"/>
+<pad name="GND45" x="125.479996875" y="66.40994375" drill="1" rot="R150"/>
+<pad name="GND46" x="123.28029375" y="67.67994375" drill="1" rot="R150"/>
+<pad name="GND47" x="126.74999375" y="68.609646875" drill="1" rot="R150"/>
+<pad name="GND48" x="124.55029375" y="69.879646875" drill="1" rot="R150"/>
+<pad name="+12V49" x="95.9860375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V50" x="95.9860375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V51" x="93.446040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="+12V52" x="93.446040625" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V53" x="90.9060375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V54" x="90.9060375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V55" x="88.366040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="+12V56" x="88.3660375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V57" x="85.8260375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V58" x="85.8260375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V59" x="83.286040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="+12V60" x="83.2860375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V61" x="80.7460375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V62" x="80.7460375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V63" x="78.206040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="+12V64" x="78.2060375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V65" x="75.6660375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V66" x="75.6660375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V67" x="73.1260375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V68" x="73.1260375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V69" x="70.586040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="+12V70" x="70.586040625" y="116.670159375" drill="1" rot="R90"/>
+<pad name="+12V71" x="68.0460375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="+12V72" x="68.0460375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND49" x="65.506040625" y="114.130159375" drill="1" rot="R90"/>
+<pad name="GND50" x="65.5060375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND51" x="62.966040625" y="114.130165625" drill="1" rot="R90"/>
+<pad name="GND52" x="62.966040625" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND53" x="60.42604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND54" x="60.426040625" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND55" x="57.88604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND56" x="57.886040625" y="116.6701625" drill="1" rot="R90"/>
+<pad name="GND57" x="55.34604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND58" x="55.34604375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND59" x="52.806040625" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND60" x="52.806040625" y="116.6701625" drill="1" rot="R90"/>
+<pad name="GND61" x="50.26604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND62" x="50.26604375" y="116.6701625" drill="1" rot="R90"/>
+<pad name="GND63" x="47.72604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND64" x="47.72604375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND65" x="45.18604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND66" x="45.18604375" y="116.6701625" drill="1" rot="R90"/>
+<pad name="GND67" x="42.64604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND68" x="42.64604375" y="116.670159375" drill="1" rot="R90"/>
+<pad name="GND69" x="40.10604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND70" x="40.106040625" y="116.6701625" drill="1" rot="R90"/>
+<pad name="GND71" x="37.56604375" y="114.1301625" drill="1" rot="R90"/>
+<pad name="GND72" x="37.56604375" y="116.670159375" drill="1" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -5851,10 +6126,10 @@ Source: AVX .. aphvc.pdf</description>
 <gate name="G$1" symbol="PDB_PCB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PDB_PCB">
+<device name="" package="PDB_PCB_2">
 <connects>
-<connect gate="G$1" pin="+12V" pad="+12V1 +12V2 +12V3 +12V4 +12V5 +12V6 +12V7 +12V8 +12V9 +12V10 +12V11 +12V12 +12V13 +12V14 +12V15 +12V16 +12V17 +12V18 +12V19 +12V20 +12V21 +12V22 +12V23 +12V24"/>
-<connect gate="G$1" pin="GND" pad="GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12 GND13 GND14 GND15 GND16 GND17 GND18 GND19 GND20 GND21 GND22 GND23 GND24"/>
+<connect gate="G$1" pin="+12V" pad="+12V1 +12V2 +12V3 +12V4 +12V5 +12V6 +12V7 +12V8 +12V9 +12V10 +12V11 +12V12 +12V13 +12V14 +12V15 +12V16 +12V17 +12V18 +12V19 +12V20 +12V21 +12V22 +12V23 +12V24 +12V25 +12V26 +12V27 +12V28 +12V29 +12V30 +12V31 +12V32 +12V33 +12V34 +12V35 +12V36 +12V37 +12V38 +12V39 +12V40 +12V41 +12V42 +12V43 +12V44 +12V45 +12V46 +12V47 +12V48 +12V49 +12V50 +12V51 +12V52 +12V53 +12V54 +12V55 +12V56 +12V57 +12V58 +12V59 +12V60 +12V61 +12V62 +12V63 +12V64 +12V65 +12V66 +12V67 +12V68 +12V69 +12V70 +12V71 +12V72"/>
+<connect gate="G$1" pin="GND" pad="GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12 GND13 GND14 GND15 GND16 GND17 GND18 GND19 GND20 GND21 GND22 GND23 GND24 GND25 GND26 GND27 GND28 GND29 GND30 GND31 GND32 GND33 GND34 GND35 GND36 GND37 GND38 GND39 GND40 GND41 GND42 GND43 GND44 GND45 GND46 GND47 GND48 GND49 GND50 GND51 GND52 GND53 GND54 GND55 GND56 GND57 GND58 GND59 GND60 GND61 GND62 GND63 GND64 GND65 GND66 GND67 GND68 GND69 GND70 GND71 GND72"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -5891,13 +6166,11 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U$4" library="TPS758" deviceset="TO-263" device=""/>
 <part name="C28" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="47UF-POLAR" device="-EIA3528-10V-10%" package3d_urn="urn:adsk.eagle:package:37411/1" value="47uF"/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" 1.2 ohms"/>
-<part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
 <part name="U$5" library="board_outlines" deviceset="BOARD" device="PCB"/>
 <part name="U$8" library="DiscreteComponents" deviceset="HCMA1305" device="" value="7.8 uH"/>
 <part name="U$9" library="DiscreteComponents" deviceset="HCMA1305" device="" value="7.8 uH"/>
 <part name="U$10" library="DiscreteComponents" deviceset="HCMA1305" device="" value="7.8 uH"/>
 <part name="U$7" library="DiscreteComponents" deviceset="HCMA1305" device="" value="7.8 uH"/>
-<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0"/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -5930,9 +6203,11 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C35" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:32380/1" value=".01uF"/>
 <part name="C1" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="TANTALUM-SMD-10UF-16V-10%(AVX-A)" device="" package3d_urn="urn:adsk.eagle:package:32380/1" value="10uF"/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
-<part name="U$12" library="PDB_PCB_connectors" deviceset="PDB_PCB_CONNEC" device=""/>
-<part name="U$13" library="PDB_PCB_connectors" deviceset="PDB_PCB_CONNEC" device=""/>
-<part name="U$14" library="PDB_PCB_connectors" deviceset="PDB_PCB_CONNEC" device=""/>
+<part name="R6" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:970937/2" value="0"/>
+<part name="R7" library="audio amplifier example" library_urn="urn:adsk.eagle:library:970892" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:970937/2" value="0">
+<attribute name="SPICEPREFIX" value="R"/>
+</part>
+<part name="U$2" library="PDB_PCB_connectors" deviceset="PDB_PCB_CONNEC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6000,10 +6275,6 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="361.696" y="48.26" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="364.744" y="48.26" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="203.2" y="106.68" smashed="yes">
-<attribute name="NAME" x="203.2" y="108.204" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="203.2" y="105.156" size="1.778" layer="96" font="vector" align="top-center"/>
-</instance>
 <instance part="U$5" gate="G$1" x="246.38" y="35.56" smashed="yes"/>
 <instance part="U$8" gate="G$1" x="203.2" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="208.28" y="140.97" size="1.778" layer="95" rot="R180"/>
@@ -6020,10 +6291,6 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="U$7" gate="G$1" x="203.2" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="208.28" y="113.03" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="208.28" y="118.11" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R5" gate="G$1" x="464.82" y="106.68" smashed="yes">
-<attribute name="NAME" x="464.82" y="108.204" size="1.778" layer="95" font="vector" align="bottom-center"/>
-<attribute name="VALUE" x="464.82" y="105.156" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="76.2" y="104.14" smashed="yes">
 <attribute name="NAME" x="75.184" y="105.918" size="1.778" layer="95" font="vector"/>
@@ -6153,9 +6420,9 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="LAST_DATE_TIME" x="217.17" y="-170.18" size="2.286" layer="94"/>
 <attribute name="SHEET" x="230.505" y="-175.26" size="2.54" layer="94"/>
 </instance>
-<instance part="U$12" gate="G$1" x="226.06" y="-93.98" smashed="yes"/>
-<instance part="U$13" gate="G$1" x="226.06" y="-116.84" smashed="yes"/>
-<instance part="U$14" gate="G$1" x="226.06" y="-139.7" smashed="yes"/>
+<instance part="R6" gate="G$1" x="464.82" y="106.68"/>
+<instance part="R7" gate="G$1" x="203.2" y="106.68"/>
+<instance part="U$2" gate="G$1" x="231.14" y="-101.6"/>
 </instances>
 <busses>
 </busses>
@@ -6169,13 +6436,10 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="N$8" class="0">
 <segment>
-<wire x1="241.3" y1="114.3" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="114.3" x2="228.6" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="114.3" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="114.3" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="114.3" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="114.3" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="114.3" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="114.3" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="114.3" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="208.28" y1="106.68" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="2"/>
 <junction x="210.82" y="114.3"/>
@@ -6187,7 +6451,7 @@ Source: AVX .. aphvc.pdf</description>
 <junction x="231.14" y="114.3"/>
 <pinref part="C12" gate="G$1" pin="-"/>
 <wire x1="243.84" y1="127" x2="243.84" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="114.3" x2="241.3" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -6252,19 +6516,9 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="73.66" y1="104.14" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$12" gate="G$1" pin="+12V"/>
-<wire x1="220.98" y1="-78.74" x2="208.28" y2="-78.74" width="0.1524" layer="91"/>
-<label x="205.74" y="-78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$13" gate="G$1" pin="+12V"/>
-<wire x1="220.98" y1="-101.6" x2="208.28" y2="-101.6" width="0.1524" layer="91"/>
-<label x="205.74" y="-101.6" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$14" gate="G$1" pin="+12V"/>
-<wire x1="220.98" y1="-124.46" x2="208.28" y2="-124.46" width="0.1524" layer="91"/>
-<label x="205.74" y="-124.46" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="+12V"/>
+<wire x1="226.06" y1="-86.36" x2="218.44" y2="-86.36" width="0.1524" layer="91"/>
+<label x="213.36" y="-86.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -6396,7 +6650,6 @@ Source: AVX .. aphvc.pdf</description>
 <label x="403.86" y="111.76" size="1.778" layer="95"/>
 <pinref part="U$10" gate="G$1" pin="1"/>
 <wire x1="459.74" y1="106.68" x2="457.2" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="457.2" y1="114.3" x2="457.2" y2="106.68" width="0.1524" layer="91"/>
 <junction x="457.2" y="114.3"/>
 <label x="401.32" y="109.22" size="1.778" layer="95" rot="R270" xref="yes"/>
@@ -6416,6 +6669,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="392.43" y1="86.36" x2="396.24" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="86.36" x2="396.24" y2="93.98" width="0.1524" layer="91"/>
 <junction x="396.24" y="93.98"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -6461,7 +6715,6 @@ Source: AVX .. aphvc.pdf</description>
 <net name="N$4" class="0">
 <segment>
 <wire x1="469.9" y1="106.68" x2="472.44" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="502.92" y1="114.3" x2="490.22" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="490.22" y1="114.3" x2="477.52" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="477.52" y1="114.3" x2="472.44" y2="114.3" width="0.1524" layer="91"/>
@@ -6476,6 +6729,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C24" gate="G$1" pin="-"/>
 <wire x1="477.52" y1="127" x2="477.52" y2="114.3" width="0.1524" layer="91"/>
 <junction x="477.52" y="114.3"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="12VGND" class="0">
@@ -6596,7 +6850,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="182.88" y1="109.22" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
 <junction x="182.88" y="114.3"/>
 <wire x1="195.58" y1="114.3" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="1"/>
 <junction x="195.58" y="114.3"/>
@@ -6617,6 +6870,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C1" gate="G$1" pin="-"/>
 <wire x1="173.99" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
 <junction x="177.8" y="101.6"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="1"/>
@@ -6626,19 +6880,9 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="U$12" gate="G$1" pin="GND"/>
-<wire x1="220.98" y1="-88.9" x2="208.28" y2="-88.9" width="0.1524" layer="91"/>
-<label x="205.74" y="-88.9" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$13" gate="G$1" pin="GND"/>
-<wire x1="220.98" y1="-111.76" x2="208.28" y2="-111.76" width="0.1524" layer="91"/>
-<label x="205.74" y="-111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$14" gate="G$1" pin="GND"/>
-<wire x1="220.98" y1="-134.62" x2="208.28" y2="-134.62" width="0.1524" layer="91"/>
-<label x="205.74" y="-134.62" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<wire x1="226.06" y1="-96.52" x2="218.44" y2="-96.52" width="0.1524" layer="91"/>
+<label x="213.36" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
