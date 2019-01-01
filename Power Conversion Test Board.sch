@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -6139,6 +6139,184 @@ chip</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="ET60S">
+<packages>
+<package name="ET60S">
+<pad name="P$25" x="-15.1384" y="-3.4544" drill="1.02108125"/>
+<pad name="P$26" x="-15.1384" y="-0.9652" drill="1.02108125"/>
+<pad name="P$27" x="-15.1384" y="1.524" drill="1.02108125"/>
+<pad name="P$28" x="-15.1384" y="4.0132" drill="1.02108125"/>
+<pad name="P$29" x="-12.1412" y="4.0132" drill="1.02108125"/>
+<pad name="P$30" x="-12.1412" y="1.524" drill="1.02108125"/>
+<pad name="P$31" x="-12.1412" y="-0.9652" drill="1.02108125"/>
+<pad name="P$32" x="-12.1412" y="-3.4544" drill="1.02108125"/>
+<pad name="P$33" x="-9.6266" y="-3.4544" drill="1.02108125"/>
+<pad name="P$34" x="-9.6266" y="-0.9652" drill="1.02108125"/>
+<pad name="P$35" x="-9.6266" y="1.524" drill="1.02108125"/>
+<pad name="P$36" x="-9.6266" y="4.0132" drill="1.02108125"/>
+<pad name="P$37" x="-6.6294" y="4.0132" drill="1.02108125"/>
+<pad name="P$38" x="-6.6294" y="1.524" drill="1.02108125"/>
+<pad name="P$39" x="-6.6294" y="-0.9652" drill="1.02108125"/>
+<pad name="P$40" x="-6.6294" y="-3.4544" drill="1.02108125"/>
+<pad name="P$41" x="-4.1148" y="-3.4544" drill="1.02108125"/>
+<pad name="P$42" x="-4.1148" y="-0.9652" drill="1.02108125"/>
+<pad name="P$43" x="-4.1148" y="1.524" drill="1.02108125"/>
+<pad name="P$44" x="-4.1148" y="4.0132" drill="1.02108125"/>
+<pad name="P$45" x="-1.1176" y="4.0132" drill="1.02108125"/>
+<pad name="P$46" x="-1.1176" y="1.524" drill="1.02108125"/>
+<pad name="P$47" x="-1.1176" y="-0.9652" drill="1.02108125"/>
+<pad name="P$48" x="-1.1176" y="-3.4544" drill="1.02108125"/>
+<pad name="P$49" x="1.397" y="-3.4544" drill="1.02108125"/>
+<pad name="P$50" x="1.397" y="-0.9652" drill="1.02108125"/>
+<pad name="P$51" x="1.397" y="1.524" drill="1.02108125"/>
+<pad name="P$52" x="1.397" y="4.0132" drill="1.02108125"/>
+<pad name="P$53" x="4.3942" y="4.0132" drill="1.02108125"/>
+<pad name="P$54" x="4.3942" y="1.524" drill="1.02108125"/>
+<pad name="P$55" x="4.3942" y="-0.9652" drill="1.02108125"/>
+<pad name="P$56" x="4.3942" y="-3.4544" drill="1.02108125"/>
+<wire x1="-24.638" y1="7.7978" x2="-24.638" y2="-7.7978" width="0.127" layer="21"/>
+<wire x1="-24.638" y1="-7.7978" x2="24.9174" y2="-7.7978" width="0.127" layer="21"/>
+<wire x1="24.9174" y1="-7.7978" x2="24.9174" y2="7.7978" width="0.127" layer="21"/>
+<wire x1="24.9174" y1="7.7978" x2="-24.638" y2="7.7978" width="0.127" layer="21"/>
+<pad name="P$58" x="15.4178" y="-3.4544" drill="1.02108125" rot="R90"/>
+<pad name="P$59" x="12.4206" y="-3.4544" drill="1.02108125" rot="R90"/>
+<pad name="P$60" x="9.906" y="-3.4544" drill="1.02108125" rot="R90"/>
+<pad name="P$61" x="6.9088" y="-3.4544" drill="1.02108125" rot="R90"/>
+<pad name="P$62" x="6.9088" y="-0.9652" drill="1.02108125" rot="R90"/>
+<pad name="P$63" x="9.906" y="-0.9652" drill="1.02108125" rot="R90"/>
+<pad name="P$64" x="12.4206" y="-0.9652" drill="1.02108125" rot="R90"/>
+<pad name="P$65" x="15.4178" y="-0.9652" drill="1.02108125" rot="R90"/>
+<pad name="P$66" x="15.4178" y="1.524" drill="1.02108125" rot="R90"/>
+<pad name="P$67" x="12.4206" y="1.524" drill="1.02108125" rot="R90"/>
+<pad name="P$68" x="9.906" y="1.524" drill="1.02108125" rot="R90"/>
+<pad name="P$69" x="6.9088" y="1.524" drill="1.02108125" rot="R90"/>
+<pad name="P$70" x="6.9088" y="4.0132" drill="1.02108125" rot="R90"/>
+<pad name="P$71" x="9.906" y="4.0132" drill="1.02108125" rot="R90"/>
+<pad name="P$72" x="12.4206" y="4.0132" drill="1.02108125" rot="R90"/>
+<pad name="P$73" x="15.4178" y="4.0132" drill="1.02108125" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="32PIN">
+<pin name="P$1" x="-12.7" y="-30.48" length="middle"/>
+<pin name="P$2" x="-12.7" y="-27.94" length="middle"/>
+<pin name="P$3" x="-12.7" y="-25.4" length="middle"/>
+<pin name="P$4" x="-12.7" y="-22.86" length="middle"/>
+<pin name="P$5" x="-12.7" y="-20.32" length="middle"/>
+<pin name="P$6" x="-12.7" y="-17.78" length="middle"/>
+<pin name="P$7" x="-12.7" y="-15.24" length="middle"/>
+<pin name="P$8" x="-12.7" y="-12.7" length="middle"/>
+<pin name="P$9" x="-12.7" y="-7.62" length="middle"/>
+<pin name="P$10" x="-12.7" y="-5.08" length="middle"/>
+<pin name="P$11" x="-12.7" y="-2.54" length="middle"/>
+<pin name="P$12" x="-12.7" y="0" length="middle"/>
+<pin name="P$13" x="-12.7" y="2.54" length="middle"/>
+<pin name="P$14" x="-12.7" y="5.08" length="middle"/>
+<pin name="P$15" x="-12.7" y="7.62" length="middle"/>
+<pin name="P$16" x="-12.7" y="10.16" length="middle"/>
+<pin name="P$17" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="P$18" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="P$19" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="P$20" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="P$21" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="P$22" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$23" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$24" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="P$25" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="P$26" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="P$27" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<pin name="P$28" x="12.7" y="-20.32" length="middle" rot="R180"/>
+<pin name="P$29" x="12.7" y="-22.86" length="middle" rot="R180"/>
+<pin name="P$30" x="12.7" y="-25.4" length="middle" rot="R180"/>
+<pin name="P$31" x="12.7" y="-27.94" length="middle" rot="R180"/>
+<pin name="P$32" x="12.7" y="-30.48" length="middle" rot="R180"/>
+<pin name="P$33" x="-12.7" y="15.24" length="middle"/>
+<pin name="P$34" x="-12.7" y="17.78" length="middle"/>
+<pin name="P$35" x="-12.7" y="20.32" length="middle"/>
+<pin name="P$36" x="-12.7" y="22.86" length="middle"/>
+<pin name="P$37" x="-12.7" y="25.4" length="middle"/>
+<pin name="P$38" x="-12.7" y="27.94" length="middle"/>
+<pin name="P$39" x="-12.7" y="30.48" length="middle"/>
+<pin name="P$40" x="-12.7" y="33.02" length="middle"/>
+<pin name="P$41" x="12.7" y="15.24" length="middle" rot="R180"/>
+<pin name="P$42" x="12.7" y="17.78" length="middle" rot="R180"/>
+<pin name="P$43" x="12.7" y="20.32" length="middle" rot="R180"/>
+<pin name="P$44" x="12.7" y="22.86" length="middle" rot="R180"/>
+<pin name="P$45" x="12.7" y="25.4" length="middle" rot="R180"/>
+<pin name="P$46" x="12.7" y="27.94" length="middle" rot="R180"/>
+<pin name="P$47" x="12.7" y="30.48" length="middle" rot="R180"/>
+<pin name="P$48" x="12.7" y="33.02" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="-33.02" x2="-10.16" y2="35.56" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="35.56" x2="10.16" y2="35.56" width="0.254" layer="94"/>
+<wire x1="10.16" y1="35.56" x2="10.16" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-33.02" x2="-10.16" y2="-33.02" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ET60S">
+<gates>
+<gate name="G$2" symbol="32PIN" x="0" y="50.8"/>
+</gates>
+<devices>
+<device name="" package="ET60S">
+<connects>
+<connect gate="G$2" pin="P$1" pad="P$25"/>
+<connect gate="G$2" pin="P$10" pad="P$34"/>
+<connect gate="G$2" pin="P$11" pad="P$35"/>
+<connect gate="G$2" pin="P$12" pad="P$36"/>
+<connect gate="G$2" pin="P$13" pad="P$37"/>
+<connect gate="G$2" pin="P$14" pad="P$38"/>
+<connect gate="G$2" pin="P$15" pad="P$39"/>
+<connect gate="G$2" pin="P$16" pad="P$40"/>
+<connect gate="G$2" pin="P$17" pad="P$41"/>
+<connect gate="G$2" pin="P$18" pad="P$42"/>
+<connect gate="G$2" pin="P$19" pad="P$43"/>
+<connect gate="G$2" pin="P$2" pad="P$26"/>
+<connect gate="G$2" pin="P$20" pad="P$44"/>
+<connect gate="G$2" pin="P$21" pad="P$45"/>
+<connect gate="G$2" pin="P$22" pad="P$46"/>
+<connect gate="G$2" pin="P$23" pad="P$47"/>
+<connect gate="G$2" pin="P$24" pad="P$48"/>
+<connect gate="G$2" pin="P$25" pad="P$49"/>
+<connect gate="G$2" pin="P$26" pad="P$50"/>
+<connect gate="G$2" pin="P$27" pad="P$51"/>
+<connect gate="G$2" pin="P$28" pad="P$52"/>
+<connect gate="G$2" pin="P$29" pad="P$53"/>
+<connect gate="G$2" pin="P$3" pad="P$27"/>
+<connect gate="G$2" pin="P$30" pad="P$54"/>
+<connect gate="G$2" pin="P$31" pad="P$55"/>
+<connect gate="G$2" pin="P$32" pad="P$56"/>
+<connect gate="G$2" pin="P$33" pad="P$60"/>
+<connect gate="G$2" pin="P$34" pad="P$61"/>
+<connect gate="G$2" pin="P$35" pad="P$62"/>
+<connect gate="G$2" pin="P$36" pad="P$63"/>
+<connect gate="G$2" pin="P$37" pad="P$68"/>
+<connect gate="G$2" pin="P$38" pad="P$69"/>
+<connect gate="G$2" pin="P$39" pad="P$70"/>
+<connect gate="G$2" pin="P$4" pad="P$28"/>
+<connect gate="G$2" pin="P$40" pad="P$71"/>
+<connect gate="G$2" pin="P$41" pad="P$58"/>
+<connect gate="G$2" pin="P$42" pad="P$59"/>
+<connect gate="G$2" pin="P$43" pad="P$64"/>
+<connect gate="G$2" pin="P$44" pad="P$65"/>
+<connect gate="G$2" pin="P$45" pad="P$66"/>
+<connect gate="G$2" pin="P$46" pad="P$67"/>
+<connect gate="G$2" pin="P$47" pad="P$72"/>
+<connect gate="G$2" pin="P$48" pad="P$73"/>
+<connect gate="G$2" pin="P$5" pad="P$29"/>
+<connect gate="G$2" pin="P$6" pad="P$30"/>
+<connect gate="G$2" pin="P$7" pad="P$31"/>
+<connect gate="G$2" pin="P$8" pad="P$32"/>
+<connect gate="G$2" pin="P$9" pad="P$33"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6208,6 +6386,9 @@ chip</description>
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
 <part name="U$2" library="PDB_PCB_connectors" deviceset="PDB_PCB_CONNEC" device=""/>
+<part name="U$6" library="ET60S" deviceset="ET60S" device=""/>
+<part name="U$11" library="ET60S" deviceset="ET60S" device=""/>
+<part name="U$12" library="ET60S" deviceset="ET60S" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6423,6 +6604,9 @@ chip</description>
 <instance part="R6" gate="G$1" x="464.82" y="106.68"/>
 <instance part="R7" gate="G$1" x="203.2" y="106.68"/>
 <instance part="U$2" gate="G$1" x="231.14" y="-101.6"/>
+<instance part="U$6" gate="G$2" x="45.72" y="-60.96"/>
+<instance part="U$11" gate="G$2" x="88.9" y="-60.96"/>
+<instance part="U$12" gate="G$2" x="132.08" y="-60.96"/>
 </instances>
 <busses>
 </busses>
