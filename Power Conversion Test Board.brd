@@ -347,7 +347,8 @@
 <wire x1="64.182859375" y1="72.936759375" x2="64.182859375" y2="76.38968125" width="0.025" layer="21"/>
 <wire x1="64.182859375" y1="76.38968125" x2="64.806240625" y2="76.38968125" width="0.025" layer="21"/>
 <wire x1="64.806240625" y1="76.38968125" x2="64.806240625" y2="72.9331" width="0.025" layer="21"/>
-<text x="24.2824" y="103.4034" size="1.778" layer="21">Power Conversion Board v1.0
+<text x="26.2382" y="105.283" size="1.27" layer="21">Power Conversion Board v1.0
+Jan 2019
 Melchor De La Garza
 Jason King
 Ryan Pearson
